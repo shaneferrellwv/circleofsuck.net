@@ -1,0 +1,55 @@
+.content-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Space between the components */
+    width: 100%; /* Ensure it fills its container horizontally */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .dropdowns-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    padding: 20px; /* Add padding for better spacing inside the container */
+    border-radius: 35px; /* Optional: Add border-radius for rounded corners */
+    background-color: #fff1dd; /* Optional: Add a background color */
+    flex: 1; /* Allow it to grow and shrink */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .dropdown-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-label {
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-select {
+    padding: 5px;
+    flex-grow: 1;
+  }
+  
+  .clear-button {
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #fff1dd;
+    border: none;
+    border-radius: 3px;
+    color: rgb(53, 53, 53);
+  }
+  
+  .viewer-wrapper {
+    flex: 3; /* Allow it to grow and shrink more compared to the control component */
+    min-width: 450px; /* Ensure it doesn't get too small */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  

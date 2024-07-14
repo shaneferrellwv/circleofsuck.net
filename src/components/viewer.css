@@ -1,0 +1,27 @@
+.viewer-wrapper {
+    width: 100%;
+    position: relative;
+  }
+  
+  .circle-container {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  
+  .team {
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the teams */
+    text-align: center;
+  }
+  
+  .team-logo {
+    /* Remove fixed width and height, will be set dynamically */
+  }
+  
+  .team-name {
+    display: block;
+    margin-top: 2px;
+    font-size: 12px; /* Decrease the text size */
+  }
+  
