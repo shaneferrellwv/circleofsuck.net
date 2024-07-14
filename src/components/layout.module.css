@@ -1,0 +1,10 @@
+.container {
+  margin: auto;
+  max-width: 1400px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.heading {
+  color: rgb(248, 155, 48);
+  margin: 20px;
+}

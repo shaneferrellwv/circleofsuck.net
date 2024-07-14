@@ -1,0 +1,38 @@
+.dropdowns-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  padding: 20px; /* Add padding for better spacing inside the container */
+  border-radius: 35px; /* Optional: Add border-radius for rounded corners */
+  background-color: #fff1dd; /* Optional: Add a background color */
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-label {
+  margin-bottom: 5px;
+}
+
+.dropdown-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-select {
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.clear-button {
+  margin-left: 10px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #fff1dd;
+  border: none;
+  border-radius: 3px;
+  color: rgb(53, 53, 53);
+}
