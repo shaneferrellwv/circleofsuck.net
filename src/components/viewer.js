@@ -33,20 +33,87 @@ const Viewer = ({ suckItem }) => {
       const angle = index * angleStep;
       const x = centerX + radius * Math.cos(angle);
       const y = centerY + radius * Math.sin(angle);
-      return { ...team, x, y };
+      return { ...team, x, y, angle };
     });
   };
 
   const teams = suckItem?.teams ? calculatePositions(suckItem.teams) : [];
 
   // Calculate the size of the logos based on the container size and number of teams
-  const logoSize = containerSize / (Math.max(teams.length, 4)) * 0.9;
+  const logoSize = containerSize / Math.max(teams.length, 4) * 0.9;
+  const logoRadius = logoSize / 2;
+
+  // Calculate the size of the greater-than signs based on the number of teams
+  const signSize = containerSize / Math.max(teams.length, 4) * 0.6;
+
+  // Calculate the font size for game info based on the number of teams and container size
+  const gameInfoFontSize = containerSize / Math.max(teams.length, 8) * 0.3;
+
+  // Function to calculate the midpoint and rotation angle for the greater-than signs
+  const getMidpointAndAngle = (x1, y1, x2, y2) => {
+    const midpoint = {
+      x: (x1 + x2) / 2,
+      y: (y1 + y2) / 2,
+    };
+    const angle = Math.atan2(y2 - y1, x2 - x1) * (180 / Math.PI);
+    return { midpoint, angle };
+  };
+
+  // Function to calculate the position of the game info
+  const getGameInfoPosition = (midpoint, angle, offset) => {
+    const radians = angle * (Math.PI / 180);
+    const r = Math.sqrt((midpoint.x - centerX) * (midpoint.x - centerX) + (midpoint.y - centerY) * (midpoint.y - centerY));
+    return {
+      x: centerX + (r * offset) * Math.cos(radians),
+      y: centerY + (r * offset) * Math.sin(radians),
+    };
+  };
+
+  // TODO: tweak formula
+  const gameInfoOffset = 0.7 * Math.exp(-0.1 * teams.length) + 1.05;
 
   return (
     <div ref={containerRef} className="viewer-wrapper">
       <TransformWrapper>
         <TransformComponent>
           <div className="circle-container" style={{ width: containerSize, height: containerSize }}>
+            <svg className="arrows" style={{ width: containerSize, height: containerSize }}>
+              {teams.map((team, index) => {
+                const nextTeam = teams[(index + 1) % teams.length];
+                const game = suckItem.games[index]; // Accessing the games array correctly
+
+                const { midpoint, angle } = getMidpointAndAngle(team.x, team.y, nextTeam.x, nextTeam.y);
+                const gameInfoPos = getGameInfoPosition(midpoint, angle, gameInfoOffset);
+
+                return (
+                  <g key={index}>
+                    <text
+                      x={midpoint.x}
+                      y={midpoint.y}
+                      transform={`rotate(${angle}, ${midpoint.x}, ${midpoint.y})`}
+                      className="greater-than"
+                      style={{ fontSize: `${signSize}px` }}
+                    >
+                      &gt;
+                    </text>
+                    {game && (
+                      <text
+                        x={gameInfoPos.x}
+                        y={gameInfoPos.y}
+                        className="game-info"
+                        style={{ fontSize: `${gameInfoFontSize}px` }}
+                        textAnchor="middle"
+                        dominantBaseline="middle"
+                      >
+                        <tspan x={gameInfoPos.x} dy="-1.2em">{game.week}</tspan>
+                        <tspan x={gameInfoPos.x} dy="1.2em">{game.home_abbreviation} {game.home_score}</tspan>
+                        <tspan x={gameInfoPos.x} dy="1.2em">{game.away_abbreviation} {game.away_score}</tspan>
+                      </text>
+                    )}
+                  </g>
+                );
+              })}
+            </svg>
             {teams.map((team, index) => (
               <div key={index} className="team" style={{ left: team.x, top: team.y }}>
                 <img

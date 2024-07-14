@@ -6,7 +6,6 @@
   .circle-container {
     position: relative;
     margin: 0 auto;
-    border: 1px solid #ccc;
   }
   
   .team {
@@ -23,5 +22,23 @@
     display: block;
     margin-top: 2px;
     font-size: 12px; /* Decrease the text size */
+  }
+  
+  .arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Make sure SVG does not interfere with interactions */
+  }
+  
+  .greater-than {
+    fill: black;
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+  
+  .game-info {
+    fill: black;
+    text-anchor: middle;
   }
   
