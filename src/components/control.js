@@ -62,10 +62,12 @@ const Control = ({ circleOfSuckTree, selectedItems, setSelectedItems, setSuckIte
       if (Object.keys(items).includes('suck')) {
         setSuckItem(items['suck']);
         suckItemSet = true;
-      } else if (level === 0 || level === 1 || (level === 2 && !selectedItems[level])) {
+      } 
+      else if (level === 0 || level === 1 || (level === 2 && !selectedItems[level])) {
         setSuckItem("Please select a sport, season, and league");
         suckItemSet = true;
-      } else if (!suckItemSet) {
+      } 
+      else if (!suckItemSet) {
         setSuckItem("No circle of suck exists for this group");
       }
       if (Object.keys(items).length === 1 && Object.keys(items)[0] === 'suck') {
