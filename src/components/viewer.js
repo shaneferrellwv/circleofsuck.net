@@ -39,14 +39,8 @@ const Viewer = ({ suckItem }) => {
 
   const teams = suckItem?.teams ? calculatePositions(suckItem.teams) : [];
 
-  // Calculate the size of the logos based on the container size and number of teams
   const logoSize = containerSize / Math.max(teams.length, 4) * 0.9;
-  const logoRadius = logoSize / 2;
-
-  // Calculate the size of the greater-than signs based on the number of teams
   const signSize = containerSize / Math.max(teams.length, 4) * 0.6;
-
-  // Calculate the font size for game info based on the number of teams and container size
   const gameInfoFontSize = containerSize / Math.max(teams.length, 8) * 0.3;
 
   // Function to calculate the midpoint and rotation angle for the greater-than signs
@@ -61,16 +55,14 @@ const Viewer = ({ suckItem }) => {
 
   // Function to calculate the position of the game info
   const getGameInfoPosition = (midpoint, angle, offset) => {
-    const radians = angle * (Math.PI / 180);
-    const r = Math.sqrt((midpoint.x - centerX) * (midpoint.x - centerX) + (midpoint.y - centerY) * (midpoint.y - centerY));
+    const radians = (angle) * (Math.PI / 180);
     return {
-      x: centerX + (r * offset) * Math.cos(radians),
-      y: centerY + (r * offset) * Math.sin(radians),
+      x: centerX + (radius * offset) * Math.cos(radians),
+      y: centerY + (radius * offset) * Math.sin(radians),
     };
   };
 
-  // TODO: tweak formula
-  const gameInfoOffset = 0.7 * Math.exp(-0.1 * teams.length) + 1.05;
+  const gameInfoOffset = 1.15;
 
   return (
     <div ref={containerRef} className="viewer-wrapper">
@@ -79,11 +71,14 @@ const Viewer = ({ suckItem }) => {
           <div className="circle-container" style={{ width: containerSize, height: containerSize }}>
             <svg className="arrows" style={{ width: containerSize, height: containerSize }}>
               {teams.map((team, index) => {
-                const nextTeam = teams[(index + 1) % teams.length];
                 const game = suckItem.games[index]; // Accessing the games array correctly
+                const nextTeam = teams[(index + 1) % teams.length];
+
+                console.log("team: " + team.name);
+                console.log("nextTeam: " + nextTeam.name);
 
                 const { midpoint, angle } = getMidpointAndAngle(team.x, team.y, nextTeam.x, nextTeam.y);
-                const gameInfoPos = getGameInfoPosition(midpoint, angle, gameInfoOffset);
+                const gameInfoPos = getGameInfoPosition(midpoint, angle - 90, gameInfoOffset);
 
                 return (
                   <g key={index}>
@@ -106,8 +101,8 @@ const Viewer = ({ suckItem }) => {
                         dominantBaseline="middle"
                       >
                         <tspan x={gameInfoPos.x} dy="-1.2em">{game.week}</tspan>
-                        <tspan x={gameInfoPos.x} dy="1.2em">{game.home_abbreviation} {game.home_score}</tspan>
                         <tspan x={gameInfoPos.x} dy="1.2em">{game.away_abbreviation} {game.away_score}</tspan>
+                        <tspan x={gameInfoPos.x} dy="1.2em">{game.home_abbreviation} {game.home_score}</tspan>
                       </text>
                     )}
                   </g>
