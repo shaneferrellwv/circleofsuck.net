@@ -22,7 +22,7 @@ const Viewer = ({ suckItem }) => {
     };
   }, []);
 
-  const radius = containerSize / 2.6; // Adjust radius based on container size
+  const radius = containerSize / 2.8; // Adjust radius based on container size
   const centerX = containerSize / 2;
   const centerY = containerSize / 2;
 
@@ -38,10 +38,9 @@ const Viewer = ({ suckItem }) => {
   };
 
   const teams = suckItem?.teams ? calculatePositions(suckItem.teams) : [];
-
   const logoSize = containerSize / Math.max(teams.length, 4) * 0.9;
   const signSize = containerSize / Math.max(teams.length, 4) * 0.6;
-  const gameInfoFontSize = containerSize / Math.max(teams.length, 8) * 0.3;
+  const gameInfoFontSize = containerSize / Math.max(teams.length, 8) * 0.25;
 
   // Function to calculate the midpoint and rotation angle for the greater-than signs
   const getMidpointAndAngle = (x1, y1, x2, y2) => {
@@ -55,60 +54,75 @@ const Viewer = ({ suckItem }) => {
 
   // Function to calculate the position of the game info
   const getGameInfoPosition = (midpoint, angle, offset) => {
-    const radians = (angle) * (Math.PI / 180);
+    const radians = angle * (Math.PI / 180);
     return {
       x: centerX + (radius * offset) * Math.cos(radians),
       y: centerY + (radius * offset) * Math.sin(radians),
     };
   };
 
-  const gameInfoOffset = 1.15;
+  const gameInfoOffset = 0.7 * Math.exp(-0.1 * centerX) + 1.18;
+
+  // Check if there are any games with week '0'
+  const hasWeekZero = suckItem?.games?.some(game => game.week === '0');
 
   return (
     <div ref={containerRef} className="viewer-wrapper">
       <TransformWrapper>
         <TransformComponent>
           <div className="circle-container" style={{ width: containerSize, height: containerSize }}>
-            <svg className="arrows" style={{ width: containerSize, height: containerSize }}>
-              {teams.map((team, index) => {
-                const game = suckItem.games[index]; // Accessing the games array correctly
-                const nextTeam = teams[(index + 1) % teams.length];
+            {suckItem && suckItem.teams && suckItem.games && (
+              <svg className="arrows" style={{ width: containerSize, height: containerSize }}>
+                {teams.map((team, index) => {
+                  const game = suckItem.games[index]; // Accessing the games array correctly
+                  const nextTeam = teams[(index + 1) % teams.length];
 
-                console.log("team: " + team.name);
-                console.log("nextTeam: " + nextTeam.name);
+                  const { midpoint, angle } = getMidpointAndAngle(team.x, team.y, nextTeam.x, nextTeam.y);
+                  const gameInfoPos = getGameInfoPosition(midpoint, angle - 90, gameInfoOffset);
 
-                const { midpoint, angle } = getMidpointAndAngle(team.x, team.y, nextTeam.x, nextTeam.y);
-                const gameInfoPos = getGameInfoPosition(midpoint, angle - 90, gameInfoOffset);
-
-                return (
-                  <g key={index}>
-                    <text
-                      x={midpoint.x}
-                      y={midpoint.y}
-                      transform={`rotate(${angle}, ${midpoint.x}, ${midpoint.y})`}
-                      className="greater-than"
-                      style={{ fontSize: `${signSize}px` }}
-                    >
-                      &gt;
-                    </text>
-                    {game && (
+                  return (
+                    <g key={index}>
                       <text
-                        x={gameInfoPos.x}
-                        y={gameInfoPos.y}
-                        className="game-info"
-                        style={{ fontSize: `${gameInfoFontSize}px` }}
-                        textAnchor="middle"
-                        dominantBaseline="middle"
+                        x={midpoint.x}
+                        y={midpoint.y}
+                        transform={`rotate(${angle}, ${midpoint.x}, ${midpoint.y})`}
+                        className="greater-than"
+                        style={{ fontSize: `${signSize}px` }}
                       >
-                        <tspan x={gameInfoPos.x} dy="-1.2em">{game.week}</tspan>
-                        <tspan x={gameInfoPos.x} dy="1.2em">{game.away_abbreviation} {game.away_score}</tspan>
-                        <tspan x={gameInfoPos.x} dy="1.2em">{game.home_abbreviation} {game.home_score}</tspan>
+                        &gt;
                       </text>
-                    )}
-                  </g>
-                );
-              })}
-            </svg>
+                      {game && (
+                        <text
+                          x={gameInfoPos.x}
+                          y={gameInfoPos.y}
+                          className="game-info"
+                          style={{ fontSize: `${gameInfoFontSize}px` }}
+                          textAnchor="middle"
+                          dominantBaseline="middle"
+                        >
+                          {!hasWeekZero && <tspan x={gameInfoPos.x} dy="-1.2em">{game.week}</tspan>}
+                          <tspan x={gameInfoPos.x} dy={!hasWeekZero ? "1.2em" : "-.6em"}>{game.away_abbreviation} {game.away_score}</tspan>
+                          <tspan x={gameInfoPos.x} dy="1.2em">{game.home_abbreviation} {game.home_score}</tspan>
+                        </text>
+                      )}
+                    </g>
+                  );
+                })}
+                {/* Add group name to the center */}
+                {suckItem.group_name && (
+                  <text
+                    x={centerX}
+                    y={centerY}
+                    className="group-name"
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                    style={{ fontSize: `${gameInfoFontSize * 1.5}px` }} // Adjust the font size as needed
+                  >
+                    {suckItem.group_name}
+                  </text>
+                )}
+              </svg>
+            )}
             {teams.map((team, index) => (
               <div key={index} className="team" style={{ left: team.x, top: team.y }}>
                 <img
@@ -117,7 +131,6 @@ const Viewer = ({ suckItem }) => {
                   className="team-logo"
                   style={{ width: `${logoSize}px`, height: `${logoSize}px` }}
                 />
-                {/* <span className="team-name">{team.name}</span> */}
               </div>
             ))}
           </div>
