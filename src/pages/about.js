@@ -8,7 +8,7 @@ const AboutPage = () => {
       <div className='mainContainer'>
         <p>circleofsuck.net is a tool for visualizing circles of suck.</p>
         <div className='definitionBox'>
-          <strong className='underlined'>circle of suck</strong> <em>—&nbsp; a situation where every team in a group has defeated another team, creating a loop of victories; often used as an indicator of parity within a group or league</em>
+          <strong className='underlined'>circle of suck</strong> <em>—&nbsp; a sports phenomenon where every team in a group has defeated another team, creating a loop of victories; often used as an indicator of parity within a group or league</em>
         </div>
         <h2>How It Works</h2>
         <p>The Circle of Suck problem is a subset of the Traveling Salesman Problem, one of the fundamental classical computing problems.
@@ -33,7 +33,7 @@ const AboutPage = () => {
         
         <h2>About the Creator</h2>
         <p>My name is <a className='link' href="https://www.linkedin.com/in/ferrellshanewv/">Shane Ferrell</a> and I am a super senior at the University of Florida studying Computer Science and Electrical Engineering.
-           I made this tool in my free time in July 2024 as an exercise in scripting and web development. Don't hesitate to reach out to me with any feedback, questions, or inquiries.</p>
+           I made this tool in my free time in July 2024 as an exercise in scripting and web development. Don't hesitate to reach out to me at circleofsuck (at) gmail (dot) com with any feedback, questions, or inquiries.</p>
       </div>
     </Layout>
   )

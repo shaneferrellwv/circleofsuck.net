@@ -125,7 +125,6 @@ const Header = () => {
           <NavLink href='/'>Home</NavLink>
           <NavLink href='http://x.com/circleofsuck'>Twitter</NavLink>
           <NavLink href='/about'>About</NavLink>
-          <NavLink href='/'>Contact</NavLink>
         </Menu>
       </NavbarContainer>
     </Nav>
