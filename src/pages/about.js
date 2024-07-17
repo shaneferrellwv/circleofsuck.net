@@ -15,7 +15,7 @@ const AboutPage = () => {
         The Traveling Salesman Problem states: Given a list of cities and the distances between each pair of cities,
         what is the shortest possible route (otherwise known as a <em>Hamiltonian cycle</em>) that visits each city exactly once and returns to the origin city?
         </p>
-        <p>The website is driven by a bot that periodically pulls sport leagues & scores data using a public sports API to find any <em>Hamiltonain cycles</em> within leagues, conferences, and divisions. You can find the bot on Twitter at <a className='link' href="x.com/circleofsuck">@circleofsuck</a>.</p>
+        <p>The website is driven by a bot that periodically pulls sport leagues & scores data using a public sports API to find any <em>Hamiltonian cycles</em> within leagues, conferences, and divisions. You can find the bot on Twitter at <a className='link' href="x.com/circleofsuck">@circleofsuck</a>.</p>
 
         <p>Becuase finding a Circle of Suck is a form of the Traveling Salesman Problem, we can apply any algorithm used to solve the Traveling Salesman Problem to find a circle of suck.</p>
         <p>Unfortunately, the Traveling Salesman Problem falls under the class of NP-hard computational problems.
