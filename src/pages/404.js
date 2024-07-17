@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Layout from '@components/Layout';
 import MainContainer from '../components/maincontainer';
 import './index.css'; // Import the new CSS file

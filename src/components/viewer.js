@@ -108,19 +108,6 @@ const Viewer = ({ suckItem }) => {
                     </g>
                   );
                 })}
-                {/* Add group name to the center */}
-                {suckItem.group_name && (
-                  <text
-                    x={centerX}
-                    y={centerY}
-                    className="group-name"
-                    textAnchor="middle"
-                    dominantBaseline="middle"
-                    style={{ fontSize: `${gameInfoFontSize * 1.5}px` }} // Adjust the font size as needed
-                  >
-                    {suckItem.group_name}
-                  </text>
-                )}
               </svg>
             )}
             {teams.map((team, index) => (
