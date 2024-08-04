@@ -21,7 +21,7 @@ const AboutPage = () => {
         <p>Unfortunately, the Traveling Salesman Problem falls under the class of NP-hard computational problems.
           This means that mathematicians and scientists haven't been able to find an algorithm that is accurate 100% of the time to solve these problems.</p>
         <p>Instead, we are stuck using algorithms that provide the optimal solution most of the time. For a trivial problem like finding a Circle of Suck, this is perfectly fine.
-          This bot's algorithm uses depth-first search with memoization (top-down dynamic programming) and can compute solutions for most groups (on my laptop) in under one-tenth of a second.</p>
+          This bot's algorithm uses depth-first search with memoization (top-down dynamic programming) and can compute solutions for most sports leagues (on my laptop) in under one-tenth of a second.</p>
 
 
         <h2>FAQ</h2>

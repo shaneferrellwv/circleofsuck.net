@@ -83,11 +83,19 @@ const MenuToggle = styled.button`
   border: none;
   font-size: 1.5em;
   cursor: pointer;
+  width: 35px; /* Set a fixed width and height */
+  height: 35px; /* Ensure height matches width */
+  display: flex; /* Center content horizontally and vertically */
+  align-items: center;
+  justify-content: center;
+  padding: 0; /* Remove padding to ensure width and height match exactly */
+  box-sizing: border-box; /* Include border in the width and height calculation */
 
   @media screen and (max-width: 768px) {
     display: block;
   }
 `;
+
 
 const BrandContainer = styled.div`
   display: flex;
@@ -104,6 +112,7 @@ const BrandName = styled.a`
   color: rgb(248, 155, 48);
   font-size: 1.5em;
   text-decoration: none;
+  margin-right: 20px;
 `;
 
 const Header = () => {
