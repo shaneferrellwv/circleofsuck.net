@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import logo from '../images/logo.png';
 
@@ -85,17 +85,15 @@ const MenuToggle = styled.button`
   cursor: pointer;
   width: 35px; /* Set a fixed width and height */
   height: 35px; /* Ensure height matches width */
-  display: flex; /* Center content horizontally and vertically */
   align-items: center;
   justify-content: center;
   padding: 0; /* Remove padding to ensure width and height match exactly */
   box-sizing: border-box; /* Include border in the width and height calculation */
 
   @media screen and (max-width: 768px) {
-    display: block;
+    display: flex;
   }
 `;
-
 
 const BrandContainer = styled.div`
   display: flex;
@@ -117,6 +115,18 @@ const BrandName = styled.a`
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -129,7 +139,7 @@ const Header = () => {
           <Logo src={logo} alt="Logo" />
           <BrandName href="/">circleofsuck.net</BrandName>
         </BrandContainer>
-        <MenuToggle onClick={toggleMenu}>&#9776;</MenuToggle>
+        {isMobile && <MenuToggle onClick={toggleMenu}>&#9776;</MenuToggle>}
         <Menu className={menuOpen ? 'show' : ''}>
           <NavLink href='/'>Home</NavLink>
           <NavLink href='http://x.com/circleofsuck'>Twitter</NavLink>
