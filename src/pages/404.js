@@ -13,6 +13,6 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => <title>Circle Of Suck Finder</title>;
+export const Head = () => <title>Circle Of Suck Explorer</title>;
 
 export default IndexPage;

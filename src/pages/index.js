@@ -11,7 +11,7 @@ const IndexPage = () => {
   const [suckItem, setSuckItem] = useState(null); // State to store the "suck" item
 
   return (
-    <Layout pageTitle='Circle of Suck Finder'>
+    <Layout pageTitle='Circle of Suck Explorer'>
       <MainContainer>
         <div className="content-container">
           <Control circleOfSuckTree={suck_tree} selectedItems={selectedItems} setSelectedItems={setSelectedItems} setSuckItem={setSuckItem} />
@@ -22,6 +22,6 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => <title>Circle Of Suck Finder</title>;
+export const Head = () => <title>Circle Of Suck Explorer</title>;
 
 export default IndexPage;
