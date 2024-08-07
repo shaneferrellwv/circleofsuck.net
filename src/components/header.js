@@ -35,6 +35,7 @@ const Header = () => {
         {isMobile && <button className="menu-toggle" onClick={toggleMenu}>&#9776;</button>}
         <div className={`menu ${menuOpen ? 'show' : ''}`}>
           <a className="nav-link" href='/'>Home</a>
+          <a className="nav-link" href='http://instagram.com/circleofsuck'>Instagram</a>
           <a className="nav-link" href='http://x.com/circleofsuck'>Twitter</a>
           <a className="nav-link" href='/about'>About</a>
         </div>
