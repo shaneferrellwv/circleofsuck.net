@@ -5,6 +5,7 @@ import './viewer.css';
 const Viewer = ({ suckItem }) => {
   const containerRef = useRef(null);
   const [containerSize, setContainerSize] = useState(800); // Default size
+  const logoSrc = '../images/logo.png'; // Ensure this path is correct
 
   useEffect(() => {
     const handleResize = () => {
@@ -71,12 +72,12 @@ const Viewer = ({ suckItem }) => {
       <TransformWrapper>
         <TransformComponent>
           <div className="circle-container" style={{ width: containerSize, height: containerSize }}>
-          {suckItem == "incomplete" && (
+            {suckItem === "incomplete" && (
               <div className="upper-message">
                 <div>Please select a sport, season, and league</div>
               </div>
             )}
-            {suckItem == "not-found" && (
+            {suckItem === "not-found" && (
               <div className="upper-message">
                 <div>Circle of Suck not found.</div>
                 <div>Try another sport, season, or league.</div>
@@ -120,6 +121,13 @@ const Viewer = ({ suckItem }) => {
                   );
                 })}
               </svg>
+            )}
+
+            {suckItem && suckItem.teams && suckItem.games && (
+              <div className="lower-message">
+                <img src={logoSrc} alt="Logo" className="lower-logo" />
+                <div className="lower-text">circleofsuck.net</div>
+              </div>
             )}
             {teams.map((team, index) => (
               <div key={index} className="team" style={{ left: team.x, top: team.y }}>
