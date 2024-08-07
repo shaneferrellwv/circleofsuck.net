@@ -1,44 +1,69 @@
 .viewer-wrapper {
-    width: 100%;
-    position: relative;
-  }
-  
-  .circle-container {
-    position: relative;
-    margin: 0 auto;
-  }
-  
-  .team {
-    position: absolute;
-    transform: translate(-50%, -50%); /* Center the teams */
-    text-align: center;
-  }
-  
-  .team-logo {
-    /* Remove fixed width and height, will be set dynamically */
-  }
-  
-  .team-name {
-    display: block;
-    margin-top: 2px;
-    font-size: 12px; /* Decrease the text size */
-  }
-  
-  .arrows {
-    position: absolute;
-    top: 0;
-    left: 0;
-    pointer-events: none; /* Make sure SVG does not interfere with interactions */
-  }
-  
-  .greater-than {
-    fill: black;
-    text-anchor: middle;
-    dominant-baseline: middle;
-  }
-  
-  .game-info {
-    fill: black;
-    text-anchor: middle;
-  }
-  
+  width: 100%;
+  position: relative;
+}
+
+.circle-container {
+  position: relative;
+  margin: 0 auto;
+}
+
+.team {
+  position: absolute;
+  transform: translate(-50%, -50%); /* Center the teams */
+  text-align: center;
+}
+
+.team-logo {
+  /* Remove fixed width and height, will be set dynamically */
+}
+
+.team-name {
+  display: block;
+  margin-top: 2px;
+  font-size: 12px; /* Decrease the text size */
+}
+
+.arrows {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* Make sure SVG does not interfere with interactions */
+}
+
+.greater-than {
+  fill: black;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.game-info {
+  fill: black;
+  text-anchor: middle;
+}
+
+.centered-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.upper-message {
+  position: absolute;
+  top: 20%; /* Position in the top third */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  max-width: 200%; /* Increase max-width to ensure better wrapping */
+  word-wrap: break-word; /* Ensure the text wraps if it doesn't fit */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -71,6 +71,19 @@ const Viewer = ({ suckItem }) => {
       <TransformWrapper>
         <TransformComponent>
           <div className="circle-container" style={{ width: containerSize, height: containerSize }}>
+          {suckItem == "incomplete" && (
+              <div className="upper-message">
+                <div>Please select a
+                <br></br></div>
+                <div>sport, season, and league</div>
+              </div>
+            )}
+            {suckItem == "not-found" && (
+              <div className="upper-message">
+                <div>Circle of Suck not found.</div>
+                <div>Try another sport, season, or league.</div>
+              </div>
+            )}
             {suckItem && suckItem.teams && suckItem.games && (
               <svg className="arrows" style={{ width: containerSize, height: containerSize }}>
                 {teams.map((team, index) => {
