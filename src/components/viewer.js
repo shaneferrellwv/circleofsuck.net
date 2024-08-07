@@ -73,9 +73,7 @@ const Viewer = ({ suckItem }) => {
           <div className="circle-container" style={{ width: containerSize, height: containerSize }}>
           {suckItem == "incomplete" && (
               <div className="upper-message">
-                <div>Please select a
-                <br></br></div>
-                <div>sport, season, and league</div>
+                <div>Please select a sport, season, and league</div>
               </div>
             )}
             {suckItem == "not-found" && (
