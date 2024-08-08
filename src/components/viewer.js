@@ -57,12 +57,12 @@ const Viewer = ({ suckItem }) => {
   const getGameInfoPosition = (midpoint, angle, offset) => {
     const radians = angle * (Math.PI / 180);
     return {
-      x: centerX + (radius * offset) * Math.cos(radians),
-      y: centerY + (radius * offset) * Math.sin(radians),
+      x: centerX + (radius * 1.2) * Math.cos(radians),
+      y: centerY + (radius* 1.2) * Math.sin(radians),
     };
   };
 
-  const gameInfoOffset = 0.7 * Math.exp(-0.1 * centerX) + 1.18;
+  const gameInfoOffset = 0.7 * Math.exp(-0.1 * suckItem?.teams) + 1.18;
 
   // Check if there are any games with week '0'
   const hasWeekZero = suckItem?.games?.some(game => game.week === '0');
@@ -86,7 +86,7 @@ const Viewer = ({ suckItem }) => {
             {suckItem && suckItem.teams && suckItem.games && (
               <svg className="arrows" style={{ width: containerSize, height: containerSize }}>
                 {teams.map((team, index) => {
-                  const game = suckItem.games[index]; // Accessing the games array correctly
+                  const game = suckItem.games[index];
                   const nextTeam = teams[(index + 1) % teams.length];
 
                   const { midpoint, angle } = getMidpointAndAngle(team.x, team.y, nextTeam.x, nextTeam.y);
@@ -106,17 +106,39 @@ const Viewer = ({ suckItem }) => {
                       {game && (
                         <text
                           x={gameInfoPos.x}
-                          y={gameInfoPos.y}
+                          y={gameInfoPos.y + (game.home_score === 0 ? 10 : 0)} // Adjust y position by 10 if home_score is 0
                           className="game-info"
                           style={{ fontSize: `${gameInfoFontSize}px` }}
                           textAnchor="middle"
                           dominantBaseline="middle"
                         >
-                          {!hasWeekZero && <tspan x={gameInfoPos.x} dy="-1.2em">{game.week}</tspan>}
-                          <tspan x={gameInfoPos.x} dy={!hasWeekZero ? "1.2em" : "-.6em"}>{game.away_abbreviation} {game.away_score}</tspan>
-                          <tspan x={gameInfoPos.x} dy="1.2em">{game.home_abbreviation} {game.home_score}</tspan>
+                          {!hasWeekZero && (
+                            <tspan x={gameInfoPos.x + (Math.abs(gameInfoPos.x) < 10 ? 5 : 0)} dy="-1.2em">
+                              {game.week}
+                            </tspan>
+                          )}
+                          {game.away_score + game.home_score !== 0 && (
+                            <tspan x={gameInfoPos.x + (Math.abs(gameInfoPos.x) < 10 ? 5 : 0)} dy={!hasWeekZero ? "1.2em" : "-.6em"}>
+                              {game.away_abbreviation} {game.away_score}
+                            </tspan>
+                          )}
+                          {game.away_score + game.home_score !== 0 && (
+                            <tspan x={gameInfoPos.x + (Math.abs(gameInfoPos.x) < 10 ? 5 : 0)} dy="1.2em">
+                              {game.home_abbreviation} {game.home_score}
+                            </tspan>
+                          )}
+                          {game.away_score === 0 && game.home_score === 0 && (
+                            <tspan
+                              x={gameInfoPos.x + (Math.abs(gameInfoPos.x) < 10 ? 5 : 0)}
+                              dy="1.2em"
+                              style={{ fontSize: `${gameInfoFontSize * 0.6}px` }}
+                            >
+                              score unavailable
+                            </tspan>
+                          )}
                         </text>
                       )}
+
                     </g>
                   );
                 })}
