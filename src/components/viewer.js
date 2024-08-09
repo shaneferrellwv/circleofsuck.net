@@ -54,16 +54,14 @@ const Viewer = ({ suckItem }) => {
   };
 
   // Function to calculate the position of the game info
-  const getGameInfoPosition = (midpoint, angle, offset) => {
+  const getGameInfoPosition = (midpoint, angle) => {
     const radians = angle * (Math.PI / 180);
-    offset = 1.1 + 0.22094 * Math.exp(-0.03962 * suckItem.teams);
+    var offset = suckItem.teams.length >= 12 ? 1.15 : 1.25;
     return {
-      x: centerX + (radius * 1.15) * Math.cos(radians),
-      y: centerY + (radius * 1.15) * Math.sin(radians),
+      x: centerX + (radius * offset) * Math.cos(radians),
+      y: centerY + (radius * offset) * Math.sin(radians),
     };
   };
-
-  const gameInfoOffset = 0.7 * Math.exp(-0.1 * suckItem?.teams) + 1.18;
 
   // Check if there are any games with week '0'
   const hasWeekZero = suckItem?.games?.some(game => game.week === '0');
@@ -91,7 +89,7 @@ const Viewer = ({ suckItem }) => {
                   const nextTeam = teams[(index + 1) % teams.length];
 
                   const { midpoint, angle } = getMidpointAndAngle(team.x, team.y, nextTeam.x, nextTeam.y);
-                  const gameInfoPos = getGameInfoPosition(midpoint, angle - 90, gameInfoOffset);
+                  const gameInfoPos = getGameInfoPosition(midpoint, angle - 90);
 
                   return (
                     <g key={index}>
