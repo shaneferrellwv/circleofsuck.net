@@ -56,9 +56,10 @@ const Viewer = ({ suckItem }) => {
   // Function to calculate the position of the game info
   const getGameInfoPosition = (midpoint, angle, offset) => {
     const radians = angle * (Math.PI / 180);
+    offset = 1.1 + 0.22094 * Math.exp(-0.03962 * suckItem.teams);
     return {
-      x: centerX + (radius * 1.2) * Math.cos(radians),
-      y: centerY + (radius* 1.2) * Math.sin(radians),
+      x: centerX + (radius * 1.15) * Math.cos(radians),
+      y: centerY + (radius * 1.15) * Math.sin(radians),
     };
   };
 
@@ -145,12 +146,12 @@ const Viewer = ({ suckItem }) => {
               </svg>
             )}
 
-            {suckItem && suckItem.teams && suckItem.games && (
+            {/* {suckItem && suckItem.teams && suckItem.games && (
               <div className="lower-message">
                 <img src={logoSrc} alt="Logo" className="lower-logo" />
                 <div className="lower-text">circleofsuck.net</div>
               </div>
-            )}
+            )} */}
             {teams.map((team, index) => (
               <div key={index} className="team" style={{ left: team.x, top: team.y }}>
                 <img
