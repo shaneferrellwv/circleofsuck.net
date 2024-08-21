@@ -22,6 +22,23 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => <title>Circle Of Suck Explorer</title>;
+export const Head = () => (
+  <>
+    <title>Circle Of Suck Explorer</title>
+    <meta property="og:title" content="Circle Of Suck Explorer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://circleofsuck.net" />
+    <meta property="og:image" content="https://circleofsuck.net/images/logo.png" />
+    <meta property="og:description" content="Explore the Circle of Suck. See how teams are connected in their losses and wins." />
+    <meta property="og:site_name" content="Circle Of Suck Explorer" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Circle Of Suck Explorer" />
+    <meta name="twitter:description" content="Explore the Circle of Suck. See how teams are connected in their losses and wins." />
+    <meta name="twitter:image" content="https://circleofsuck.net/images/logo.png" />
+    <meta name="twitter:site" content="@circleofsuck" />
+  </>
+);
+
 
 export default IndexPage;
