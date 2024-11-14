@@ -11571,6 +11571,1782 @@
         }
     },
     "basketball": {
+        "2025": {
+            "National Basketball Association": {
+                "Western Conference": {
+                    "suck": {
+                        "group_name": "Western Conference",
+                        "teams": [
+                            {
+                                "id": "7",
+                                "name": "Denver Nuggets",
+                                "abbreviation": "DEN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+                                "parent": "Northwest"
+                            },
+                            {
+                                "id": "25",
+                                "name": "Oklahoma City Thunder",
+                                "abbreviation": "OKC",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+                                "parent": "Northwest"
+                            },
+                            {
+                                "id": "3",
+                                "name": "New Orleans Pelicans",
+                                "abbreviation": "NO",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+                                "parent": "Southwest"
+                            },
+                            {
+                                "id": "22",
+                                "name": "Portland Trail Blazers",
+                                "abbreviation": "POR",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+                                "parent": "Northwest"
+                            },
+                            {
+                                "id": "12",
+                                "name": "LA Clippers",
+                                "abbreviation": "LAC",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+                                "parent": "Pacific"
+                            },
+                            {
+                                "id": "9",
+                                "name": "Golden State Warriors",
+                                "abbreviation": "GS",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+                                "parent": "Pacific"
+                            },
+                            {
+                                "id": "26",
+                                "name": "Utah Jazz",
+                                "abbreviation": "UTAH",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+                                "parent": "Northwest"
+                            },
+                            {
+                                "id": "24",
+                                "name": "San Antonio Spurs",
+                                "abbreviation": "SA",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                                "parent": "Southwest"
+                            },
+                            {
+                                "id": "10",
+                                "name": "Houston Rockets",
+                                "abbreviation": "HOU",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+                                "parent": "Southwest"
+                            },
+                            {
+                                "id": "29",
+                                "name": "Memphis Grizzlies",
+                                "abbreviation": "MEM",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+                                "parent": "Southwest"
+                            },
+                            {
+                                "id": "13",
+                                "name": "Los Angeles Lakers",
+                                "abbreviation": "LAL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                                "parent": "Pacific"
+                            },
+                            {
+                                "id": "23",
+                                "name": "Sacramento Kings",
+                                "abbreviation": "SAC",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+                                "parent": "Pacific"
+                            },
+                            {
+                                "id": "21",
+                                "name": "Phoenix Suns",
+                                "abbreviation": "PHX",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+                                "parent": "Pacific"
+                            },
+                            {
+                                "id": "6",
+                                "name": "Dallas Mavericks",
+                                "abbreviation": "DAL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+                                "parent": "Southwest"
+                            },
+                            {
+                                "id": "16",
+                                "name": "Minnesota Timberwolves",
+                                "abbreviation": "MIN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+                                "parent": "Northwest"
+                            }
+                        ],
+                        "games": [
+                            {
+                                "id": "401704743",
+                                "week": "0",
+                                "home_abbreviation": "DEN",
+                                "away_abbreviation": "OKC",
+                                "home_score": 124,
+                                "away_score": 122,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401704787",
+                                "week": "0",
+                                "home_abbreviation": "OKC",
+                                "away_abbreviation": "NO",
+                                "home_score": 106,
+                                "away_score": 88,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401704652",
+                                "week": "0",
+                                "home_abbreviation": "POR",
+                                "away_abbreviation": "NO",
+                                "home_score": 103,
+                                "away_score": 105,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401704693",
+                                "week": "0",
+                                "home_abbreviation": "LAC",
+                                "away_abbreviation": "POR",
+                                "home_score": 105,
+                                "away_score": 106,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401704667",
+                                "week": "0",
+                                "home_abbreviation": "GS",
+                                "away_abbreviation": "LAC",
+                                "home_score": 104,
+                                "away_score": 112,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401704650",
+                                "week": "0",
+                                "home_abbreviation": "UTAH",
+                                "away_abbreviation": "GS",
+                                "home_score": 86,
+                                "away_score": 127,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401704763",
+                                "week": "0",
+                                "home_abbreviation": "SA",
+                                "away_abbreviation": "UTAH",
+                                "home_score": 110,
+                                "away_score": 111,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401704660",
+                                "week": "0",
+                                "home_abbreviation": "SA",
+                                "away_abbreviation": "HOU",
+                                "home_score": 109,
+                                "away_score": 106,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401704648",
+                                "week": "0",
+                                "home_abbreviation": "HOU",
+                                "away_abbreviation": "MEM",
+                                "home_score": 128,
+                                "away_score": 108,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401704740",
+                                "week": "0",
+                                "home_abbreviation": "MEM",
+                                "away_abbreviation": "LAL",
+                                "home_score": 131,
+                                "away_score": 114,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401704662",
+                                "week": "0",
+                                "home_abbreviation": "LAL",
+                                "away_abbreviation": "SAC",
+                                "home_score": 131,
+                                "away_score": 127,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401704775",
+                                "week": "0",
+                                "home_abbreviation": "PHX",
+                                "away_abbreviation": "SAC",
+                                "home_score": 118,
+                                "away_score": 127,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401704756",
+                                "week": "0",
+                                "home_abbreviation": "DAL",
+                                "away_abbreviation": "PHX",
+                                "home_score": 113,
+                                "away_score": 114,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401704680",
+                                "week": "0",
+                                "home_abbreviation": "MIN",
+                                "away_abbreviation": "DAL",
+                                "home_score": 114,
+                                "away_score": 120,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401704705",
+                                "week": "0",
+                                "home_abbreviation": "MIN",
+                                "away_abbreviation": "DEN",
+                                "home_score": 119,
+                                "away_score": 116,
+                                "home_team_won": true
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "2024": {
+            "National Basketball Association": {
+                "suck": {
+                    "group_name": "National Basketball Association",
+                    "teams": [
+                        {
+                            "id": "2",
+                            "name": "Boston Celtics",
+                            "abbreviation": "BOS",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+                            "parent": "Atlantic"
+                        },
+                        {
+                            "id": "17",
+                            "name": "Brooklyn Nets",
+                            "abbreviation": "BKN",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+                            "parent": "Atlantic"
+                        },
+                        {
+                            "id": "20",
+                            "name": "Philadelphia 76ers",
+                            "abbreviation": "PHI",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+                            "parent": "Atlantic"
+                        },
+                        {
+                            "id": "18",
+                            "name": "New York Knicks",
+                            "abbreviation": "NY",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+                            "parent": "Atlantic"
+                        },
+                        {
+                            "id": "28",
+                            "name": "Toronto Raptors",
+                            "abbreviation": "TOR",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+                            "parent": "Atlantic"
+                        },
+                        {
+                            "id": "4",
+                            "name": "Chicago Bulls",
+                            "abbreviation": "CHI",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+                            "parent": "Central"
+                        },
+                        {
+                            "id": "5",
+                            "name": "Cleveland Cavaliers",
+                            "abbreviation": "CLE",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+                            "parent": "Central"
+                        },
+                        {
+                            "id": "8",
+                            "name": "Detroit Pistons",
+                            "abbreviation": "DET",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+                            "parent": "Central"
+                        },
+                        {
+                            "id": "27",
+                            "name": "Washington Wizards",
+                            "abbreviation": "WSH",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+                            "parent": "Southeast"
+                        },
+                        {
+                            "id": "11",
+                            "name": "Indiana Pacers",
+                            "abbreviation": "IND",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+                            "parent": "Central"
+                        },
+                        {
+                            "id": "15",
+                            "name": "Milwaukee Bucks",
+                            "abbreviation": "MIL",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+                            "parent": "Central"
+                        },
+                        {
+                            "id": "1",
+                            "name": "Atlanta Hawks",
+                            "abbreviation": "ATL",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+                            "parent": "Southeast"
+                        },
+                        {
+                            "id": "14",
+                            "name": "Miami Heat",
+                            "abbreviation": "MIA",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+                            "parent": "Southeast"
+                        },
+                        {
+                            "id": "19",
+                            "name": "Orlando Magic",
+                            "abbreviation": "ORL",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+                            "parent": "Southeast"
+                        },
+                        {
+                            "id": "30",
+                            "name": "Charlotte Hornets",
+                            "abbreviation": "CHA",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+                            "parent": "Southeast"
+                        },
+                        {
+                            "id": "16",
+                            "name": "Minnesota Timberwolves",
+                            "abbreviation": "MIN",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+                            "parent": "Northwest"
+                        },
+                        {
+                            "id": "7",
+                            "name": "Denver Nuggets",
+                            "abbreviation": "DEN",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+                            "parent": "Northwest"
+                        },
+                        {
+                            "id": "22",
+                            "name": "Portland Trail Blazers",
+                            "abbreviation": "POR",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+                            "parent": "Northwest"
+                        },
+                        {
+                            "id": "26",
+                            "name": "Utah Jazz",
+                            "abbreviation": "UTAH",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+                            "parent": "Northwest"
+                        },
+                        {
+                            "id": "25",
+                            "name": "Oklahoma City Thunder",
+                            "abbreviation": "OKC",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+                            "parent": "Northwest"
+                        },
+                        {
+                            "id": "9",
+                            "name": "Golden State Warriors",
+                            "abbreviation": "GS",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+                            "parent": "Pacific"
+                        },
+                        {
+                            "id": "12",
+                            "name": "LA Clippers",
+                            "abbreviation": "LAC",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+                            "parent": "Pacific"
+                        },
+                        {
+                            "id": "21",
+                            "name": "Phoenix Suns",
+                            "abbreviation": "PHX",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+                            "parent": "Pacific"
+                        },
+                        {
+                            "id": "23",
+                            "name": "Sacramento Kings",
+                            "abbreviation": "SAC",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+                            "parent": "Pacific"
+                        },
+                        {
+                            "id": "6",
+                            "name": "Dallas Mavericks",
+                            "abbreviation": "DAL",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+                            "parent": "Southwest"
+                        },
+                        {
+                            "id": "3",
+                            "name": "New Orleans Pelicans",
+                            "abbreviation": "NO",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+                            "parent": "Southwest"
+                        },
+                        {
+                            "id": "10",
+                            "name": "Houston Rockets",
+                            "abbreviation": "HOU",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+                            "parent": "Southwest"
+                        },
+                        {
+                            "id": "24",
+                            "name": "San Antonio Spurs",
+                            "abbreviation": "SA",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                            "parent": "Southwest"
+                        },
+                        {
+                            "id": "29",
+                            "name": "Memphis Grizzlies",
+                            "abbreviation": "MEM",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+                            "parent": "Southwest"
+                        },
+                        {
+                            "id": "13",
+                            "name": "Los Angeles Lakers",
+                            "abbreviation": "LAL",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                            "parent": "Pacific"
+                        }
+                    ],
+                    "games": [
+                        {
+                            "id": "401584098",
+                            "week": "0",
+                            "home_abbreviation": "BOS",
+                            "away_abbreviation": "BKN",
+                            "home_score": 121,
+                            "away_score": 107,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585515",
+                            "week": "0",
+                            "home_abbreviation": "BKN",
+                            "away_abbreviation": "PHI",
+                            "home_score": 112,
+                            "away_score": 107,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585555",
+                            "week": "0",
+                            "home_abbreviation": "NY",
+                            "away_abbreviation": "PHI",
+                            "home_score": 73,
+                            "away_score": 79,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401584925",
+                            "week": "0",
+                            "home_abbreviation": "NY",
+                            "away_abbreviation": "TOR",
+                            "home_score": 136,
+                            "away_score": 130,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401584134",
+                            "week": "0",
+                            "home_abbreviation": "TOR",
+                            "away_abbreviation": "CHI",
+                            "home_score": 121,
+                            "away_score": 108,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585474",
+                            "week": "0",
+                            "home_abbreviation": "CHI",
+                            "away_abbreviation": "CLE",
+                            "home_score": 132,
+                            "away_score": 123,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585303",
+                            "week": "0",
+                            "home_abbreviation": "CLE",
+                            "away_abbreviation": "DET",
+                            "home_score": 128,
+                            "away_score": 121,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585186",
+                            "week": "0",
+                            "home_abbreviation": "WSH",
+                            "away_abbreviation": "DET",
+                            "home_score": 117,
+                            "away_score": 129,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401584956",
+                            "week": "0",
+                            "home_abbreviation": "WSH",
+                            "away_abbreviation": "IND",
+                            "home_score": 137,
+                            "away_score": 123,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585082",
+                            "week": "0",
+                            "home_abbreviation": "MIL",
+                            "away_abbreviation": "IND",
+                            "home_score": 113,
+                            "away_score": 122,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401585704",
+                            "week": "0",
+                            "home_abbreviation": "ATL",
+                            "away_abbreviation": "MIL",
+                            "home_score": 113,
+                            "away_score": 122,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401585215",
+                            "week": "0",
+                            "home_abbreviation": "MIA",
+                            "away_abbreviation": "ATL",
+                            "home_score": 108,
+                            "away_score": 109,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401584994",
+                            "week": "0",
+                            "home_abbreviation": "ORL",
+                            "away_abbreviation": "MIA",
+                            "home_score": 106,
+                            "away_score": 115,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401585619",
+                            "week": "0",
+                            "home_abbreviation": "ORL",
+                            "away_abbreviation": "CHA",
+                            "home_score": 112,
+                            "away_score": 92,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585238",
+                            "week": "0",
+                            "home_abbreviation": "MIN",
+                            "away_abbreviation": "CHA",
+                            "home_score": 125,
+                            "away_score": 128,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401584751",
+                            "week": "0",
+                            "home_abbreviation": "MIN",
+                            "away_abbreviation": "DEN",
+                            "home_score": 110,
+                            "away_score": 89,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585325",
+                            "week": "0",
+                            "home_abbreviation": "DEN",
+                            "away_abbreviation": "POR",
+                            "home_score": 120,
+                            "away_score": 108,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401584865",
+                            "week": "0",
+                            "home_abbreviation": "POR",
+                            "away_abbreviation": "UTAH",
+                            "home_score": 121,
+                            "away_score": 105,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585352",
+                            "week": "0",
+                            "home_abbreviation": "UTAH",
+                            "away_abbreviation": "OKC",
+                            "home_score": 124,
+                            "away_score": 117,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401584829",
+                            "week": "0",
+                            "home_abbreviation": "GS",
+                            "away_abbreviation": "OKC",
+                            "home_score": 109,
+                            "away_score": 128,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401584901",
+                            "week": "0",
+                            "home_abbreviation": "GS",
+                            "away_abbreviation": "LAC",
+                            "home_score": 120,
+                            "away_score": 114,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585101",
+                            "week": "0",
+                            "home_abbreviation": "PHX",
+                            "away_abbreviation": "LAC",
+                            "home_score": 122,
+                            "away_score": 131,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401585195",
+                            "week": "0",
+                            "home_abbreviation": "PHX",
+                            "away_abbreviation": "SAC",
+                            "home_score": 119,
+                            "away_score": 117,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585279",
+                            "week": "0",
+                            "home_abbreviation": "DAL",
+                            "away_abbreviation": "SAC",
+                            "home_score": 115,
+                            "away_score": 120,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401584811",
+                            "week": "0",
+                            "home_abbreviation": "NO",
+                            "away_abbreviation": "DAL",
+                            "home_score": 124,
+                            "away_score": 136,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401585426",
+                            "week": "0",
+                            "home_abbreviation": "NO",
+                            "away_abbreviation": "HOU",
+                            "home_score": 127,
+                            "away_score": 105,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401585570",
+                            "week": "0",
+                            "home_abbreviation": "SA",
+                            "away_abbreviation": "HOU",
+                            "home_score": 101,
+                            "away_score": 103,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401585779",
+                            "week": "0",
+                            "home_abbreviation": "MEM",
+                            "away_abbreviation": "SA",
+                            "home_score": 87,
+                            "away_score": 102,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401585119",
+                            "week": "0",
+                            "home_abbreviation": "LAL",
+                            "away_abbreviation": "MEM",
+                            "home_score": 113,
+                            "away_score": 127,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401585312",
+                            "week": "0",
+                            "home_abbreviation": "BOS",
+                            "away_abbreviation": "LAL",
+                            "home_score": 105,
+                            "away_score": 114,
+                            "home_team_won": false
+                        }
+                    ]
+                },
+                "Eastern Conference": {
+                    "suck": {
+                        "group_name": "Eastern Conference",
+                        "teams": [
+                            {
+                                "id": "2",
+                                "name": "Boston Celtics",
+                                "abbreviation": "BOS",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+                                "parent": "Atlantic"
+                            },
+                            {
+                                "id": "17",
+                                "name": "Brooklyn Nets",
+                                "abbreviation": "BKN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+                                "parent": "Atlantic"
+                            },
+                            {
+                                "id": "20",
+                                "name": "Philadelphia 76ers",
+                                "abbreviation": "PHI",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+                                "parent": "Atlantic"
+                            },
+                            {
+                                "id": "18",
+                                "name": "New York Knicks",
+                                "abbreviation": "NY",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+                                "parent": "Atlantic"
+                            },
+                            {
+                                "id": "28",
+                                "name": "Toronto Raptors",
+                                "abbreviation": "TOR",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+                                "parent": "Atlantic"
+                            },
+                            {
+                                "id": "4",
+                                "name": "Chicago Bulls",
+                                "abbreviation": "CHI",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+                                "parent": "Central"
+                            },
+                            {
+                                "id": "5",
+                                "name": "Cleveland Cavaliers",
+                                "abbreviation": "CLE",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+                                "parent": "Central"
+                            },
+                            {
+                                "id": "8",
+                                "name": "Detroit Pistons",
+                                "abbreviation": "DET",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+                                "parent": "Central"
+                            },
+                            {
+                                "id": "27",
+                                "name": "Washington Wizards",
+                                "abbreviation": "WSH",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+                                "parent": "Southeast"
+                            },
+                            {
+                                "id": "11",
+                                "name": "Indiana Pacers",
+                                "abbreviation": "IND",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+                                "parent": "Central"
+                            },
+                            {
+                                "id": "15",
+                                "name": "Milwaukee Bucks",
+                                "abbreviation": "MIL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+                                "parent": "Central"
+                            },
+                            {
+                                "id": "1",
+                                "name": "Atlanta Hawks",
+                                "abbreviation": "ATL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+                                "parent": "Southeast"
+                            },
+                            {
+                                "id": "14",
+                                "name": "Miami Heat",
+                                "abbreviation": "MIA",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+                                "parent": "Southeast"
+                            },
+                            {
+                                "id": "19",
+                                "name": "Orlando Magic",
+                                "abbreviation": "ORL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+                                "parent": "Southeast"
+                            },
+                            {
+                                "id": "30",
+                                "name": "Charlotte Hornets",
+                                "abbreviation": "CHA",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+                                "parent": "Southeast"
+                            }
+                        ],
+                        "games": [
+                            {
+                                "id": "401584098",
+                                "week": "0",
+                                "home_abbreviation": "BOS",
+                                "away_abbreviation": "BKN",
+                                "home_score": 121,
+                                "away_score": 107,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585515",
+                                "week": "0",
+                                "home_abbreviation": "BKN",
+                                "away_abbreviation": "PHI",
+                                "home_score": 112,
+                                "away_score": 107,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585555",
+                                "week": "0",
+                                "home_abbreviation": "NY",
+                                "away_abbreviation": "PHI",
+                                "home_score": 73,
+                                "away_score": 79,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401584925",
+                                "week": "0",
+                                "home_abbreviation": "NY",
+                                "away_abbreviation": "TOR",
+                                "home_score": 136,
+                                "away_score": 130,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401584134",
+                                "week": "0",
+                                "home_abbreviation": "TOR",
+                                "away_abbreviation": "CHI",
+                                "home_score": 121,
+                                "away_score": 108,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585474",
+                                "week": "0",
+                                "home_abbreviation": "CHI",
+                                "away_abbreviation": "CLE",
+                                "home_score": 132,
+                                "away_score": 123,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585303",
+                                "week": "0",
+                                "home_abbreviation": "CLE",
+                                "away_abbreviation": "DET",
+                                "home_score": 128,
+                                "away_score": 121,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585186",
+                                "week": "0",
+                                "home_abbreviation": "WSH",
+                                "away_abbreviation": "DET",
+                                "home_score": 117,
+                                "away_score": 129,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401584956",
+                                "week": "0",
+                                "home_abbreviation": "WSH",
+                                "away_abbreviation": "IND",
+                                "home_score": 137,
+                                "away_score": 123,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585082",
+                                "week": "0",
+                                "home_abbreviation": "MIL",
+                                "away_abbreviation": "IND",
+                                "home_score": 113,
+                                "away_score": 122,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401585704",
+                                "week": "0",
+                                "home_abbreviation": "ATL",
+                                "away_abbreviation": "MIL",
+                                "home_score": 113,
+                                "away_score": 122,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401585215",
+                                "week": "0",
+                                "home_abbreviation": "MIA",
+                                "away_abbreviation": "ATL",
+                                "home_score": 108,
+                                "away_score": 109,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401584994",
+                                "week": "0",
+                                "home_abbreviation": "ORL",
+                                "away_abbreviation": "MIA",
+                                "home_score": 106,
+                                "away_score": 115,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401585619",
+                                "week": "0",
+                                "home_abbreviation": "ORL",
+                                "away_abbreviation": "CHA",
+                                "home_score": 112,
+                                "away_score": 92,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401584845",
+                                "week": "0",
+                                "home_abbreviation": "CHA",
+                                "away_abbreviation": "BOS",
+                                "home_score": 121,
+                                "away_score": 118,
+                                "home_team_won": true
+                            }
+                        ]
+                    },
+                    "Atlantic": {
+                        "suck": {
+                            "group_name": "Atlantic",
+                            "teams": [
+                                {
+                                    "id": "2",
+                                    "name": "Boston Celtics",
+                                    "abbreviation": "BOS",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+                                    "parent": "Atlantic"
+                                },
+                                {
+                                    "id": "18",
+                                    "name": "New York Knicks",
+                                    "abbreviation": "NY",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+                                    "parent": "Atlantic"
+                                },
+                                {
+                                    "id": "28",
+                                    "name": "Toronto Raptors",
+                                    "abbreviation": "TOR",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+                                    "parent": "Atlantic"
+                                },
+                                {
+                                    "id": "17",
+                                    "name": "Brooklyn Nets",
+                                    "abbreviation": "BKN",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+                                    "parent": "Atlantic"
+                                },
+                                {
+                                    "id": "20",
+                                    "name": "Philadelphia 76ers",
+                                    "abbreviation": "PHI",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+                                    "parent": "Atlantic"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401617579",
+                                    "week": "0",
+                                    "home_abbreviation": "BOS",
+                                    "away_abbreviation": "NY",
+                                    "home_score": 133,
+                                    "away_score": 123,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401584925",
+                                    "week": "0",
+                                    "home_abbreviation": "NY",
+                                    "away_abbreviation": "TOR",
+                                    "home_score": 136,
+                                    "away_score": 130,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401585423",
+                                    "week": "0",
+                                    "home_abbreviation": "TOR",
+                                    "away_abbreviation": "BKN",
+                                    "home_score": 121,
+                                    "away_score": 93,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401585515",
+                                    "week": "0",
+                                    "home_abbreviation": "BKN",
+                                    "away_abbreviation": "PHI",
+                                    "home_score": 112,
+                                    "away_score": 107,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401584787",
+                                    "week": "0",
+                                    "home_abbreviation": "PHI",
+                                    "away_abbreviation": "BOS",
+                                    "home_score": 106,
+                                    "away_score": 103,
+                                    "home_team_won": true
+                                }
+                            ]
+                        }
+                    },
+                    "Central": {
+                        "suck": {
+                            "group_name": "Central",
+                            "teams": [
+                                {
+                                    "id": "4",
+                                    "name": "Chicago Bulls",
+                                    "abbreviation": "CHI",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+                                    "parent": "Central"
+                                },
+                                {
+                                    "id": "5",
+                                    "name": "Cleveland Cavaliers",
+                                    "abbreviation": "CLE",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+                                    "parent": "Central"
+                                },
+                                {
+                                    "id": "11",
+                                    "name": "Indiana Pacers",
+                                    "abbreviation": "IND",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+                                    "parent": "Central"
+                                },
+                                {
+                                    "id": "15",
+                                    "name": "Milwaukee Bucks",
+                                    "abbreviation": "MIL",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+                                    "parent": "Central"
+                                },
+                                {
+                                    "id": "8",
+                                    "name": "Detroit Pistons",
+                                    "abbreviation": "DET",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+                                    "parent": "Central"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401585474",
+                                    "week": "0",
+                                    "home_abbreviation": "CHI",
+                                    "away_abbreviation": "CLE",
+                                    "home_score": 132,
+                                    "away_score": 123,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401585611",
+                                    "week": "0",
+                                    "home_abbreviation": "IND",
+                                    "away_abbreviation": "CLE",
+                                    "home_score": 103,
+                                    "away_score": 108,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401585082",
+                                    "week": "0",
+                                    "home_abbreviation": "MIL",
+                                    "away_abbreviation": "IND",
+                                    "home_score": 113,
+                                    "away_score": 122,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401585234",
+                                    "week": "0",
+                                    "home_abbreviation": "DET",
+                                    "away_abbreviation": "MIL",
+                                    "home_score": 113,
+                                    "away_score": 122,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401585467",
+                                    "week": "0",
+                                    "home_abbreviation": "CHI",
+                                    "away_abbreviation": "DET",
+                                    "home_score": 95,
+                                    "away_score": 105,
+                                    "home_team_won": false
+                                }
+                            ]
+                        }
+                    },
+                    "Southeast": {
+                        "suck": {
+                            "group_name": "Southeast",
+                            "teams": [
+                                {
+                                    "id": "1",
+                                    "name": "Atlanta Hawks",
+                                    "abbreviation": "ATL",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+                                    "parent": "Southeast"
+                                },
+                                {
+                                    "id": "14",
+                                    "name": "Miami Heat",
+                                    "abbreviation": "MIA",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+                                    "parent": "Southeast"
+                                },
+                                {
+                                    "id": "19",
+                                    "name": "Orlando Magic",
+                                    "abbreviation": "ORL",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+                                    "parent": "Southeast"
+                                },
+                                {
+                                    "id": "27",
+                                    "name": "Washington Wizards",
+                                    "abbreviation": "WSH",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+                                    "parent": "Southeast"
+                                },
+                                {
+                                    "id": "30",
+                                    "name": "Charlotte Hornets",
+                                    "abbreviation": "CHA",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+                                    "parent": "Southeast"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401585215",
+                                    "week": "0",
+                                    "home_abbreviation": "MIA",
+                                    "away_abbreviation": "ATL",
+                                    "home_score": 108,
+                                    "away_score": 109,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401584994",
+                                    "week": "0",
+                                    "home_abbreviation": "ORL",
+                                    "away_abbreviation": "MIA",
+                                    "home_score": 106,
+                                    "away_score": 115,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401585035",
+                                    "week": "0",
+                                    "home_abbreviation": "WSH",
+                                    "away_abbreviation": "ORL",
+                                    "home_score": 119,
+                                    "away_score": 127,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401584785",
+                                    "week": "0",
+                                    "home_abbreviation": "CHA",
+                                    "away_abbreviation": "WSH",
+                                    "home_score": 116,
+                                    "away_score": 132,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401585405",
+                                    "week": "0",
+                                    "home_abbreviation": "CHA",
+                                    "away_abbreviation": "ATL",
+                                    "home_score": 122,
+                                    "away_score": 99,
+                                    "home_team_won": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Western Conference": {
+                    "suck": {
+                        "group_name": "Western Conference",
+                        "teams": [
+                            {
+                                "id": "7",
+                                "name": "Denver Nuggets",
+                                "abbreviation": "DEN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+                                "parent": "Northwest"
+                            },
+                            {
+                                "id": "16",
+                                "name": "Minnesota Timberwolves",
+                                "abbreviation": "MIN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+                                "parent": "Northwest"
+                            },
+                            {
+                                "id": "22",
+                                "name": "Portland Trail Blazers",
+                                "abbreviation": "POR",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+                                "parent": "Northwest"
+                            },
+                            {
+                                "id": "26",
+                                "name": "Utah Jazz",
+                                "abbreviation": "UTAH",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+                                "parent": "Northwest"
+                            },
+                            {
+                                "id": "25",
+                                "name": "Oklahoma City Thunder",
+                                "abbreviation": "OKC",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+                                "parent": "Northwest"
+                            },
+                            {
+                                "id": "9",
+                                "name": "Golden State Warriors",
+                                "abbreviation": "GS",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+                                "parent": "Pacific"
+                            },
+                            {
+                                "id": "12",
+                                "name": "LA Clippers",
+                                "abbreviation": "LAC",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+                                "parent": "Pacific"
+                            },
+                            {
+                                "id": "13",
+                                "name": "Los Angeles Lakers",
+                                "abbreviation": "LAL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                                "parent": "Pacific"
+                            },
+                            {
+                                "id": "21",
+                                "name": "Phoenix Suns",
+                                "abbreviation": "PHX",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+                                "parent": "Pacific"
+                            },
+                            {
+                                "id": "23",
+                                "name": "Sacramento Kings",
+                                "abbreviation": "SAC",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+                                "parent": "Pacific"
+                            },
+                            {
+                                "id": "6",
+                                "name": "Dallas Mavericks",
+                                "abbreviation": "DAL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+                                "parent": "Southwest"
+                            },
+                            {
+                                "id": "3",
+                                "name": "New Orleans Pelicans",
+                                "abbreviation": "NO",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+                                "parent": "Southwest"
+                            },
+                            {
+                                "id": "10",
+                                "name": "Houston Rockets",
+                                "abbreviation": "HOU",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+                                "parent": "Southwest"
+                            },
+                            {
+                                "id": "29",
+                                "name": "Memphis Grizzlies",
+                                "abbreviation": "MEM",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+                                "parent": "Southwest"
+                            },
+                            {
+                                "id": "24",
+                                "name": "San Antonio Spurs",
+                                "abbreviation": "SA",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                                "parent": "Southwest"
+                            }
+                        ],
+                        "games": [
+                            {
+                                "id": "401585792",
+                                "week": "0",
+                                "home_abbreviation": "DEN",
+                                "away_abbreviation": "MIN",
+                                "home_score": 116,
+                                "away_score": 107,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585166",
+                                "week": "0",
+                                "home_abbreviation": "MIN",
+                                "away_abbreviation": "POR",
+                                "home_score": 116,
+                                "away_score": 93,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401584865",
+                                "week": "0",
+                                "home_abbreviation": "POR",
+                                "away_abbreviation": "UTAH",
+                                "home_score": 121,
+                                "away_score": 105,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585352",
+                                "week": "0",
+                                "home_abbreviation": "UTAH",
+                                "away_abbreviation": "OKC",
+                                "home_score": 124,
+                                "away_score": 117,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401584829",
+                                "week": "0",
+                                "home_abbreviation": "GS",
+                                "away_abbreviation": "OKC",
+                                "home_score": 109,
+                                "away_score": 128,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401584901",
+                                "week": "0",
+                                "home_abbreviation": "GS",
+                                "away_abbreviation": "LAC",
+                                "home_score": 120,
+                                "away_score": 114,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585246",
+                                "week": "0",
+                                "home_abbreviation": "LAC",
+                                "away_abbreviation": "LAL",
+                                "home_score": 127,
+                                "away_score": 116,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401584704",
+                                "week": "0",
+                                "home_abbreviation": "LAL",
+                                "away_abbreviation": "PHX",
+                                "home_score": 100,
+                                "away_score": 95,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585195",
+                                "week": "0",
+                                "home_abbreviation": "PHX",
+                                "away_abbreviation": "SAC",
+                                "home_score": 119,
+                                "away_score": 117,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585279",
+                                "week": "0",
+                                "home_abbreviation": "DAL",
+                                "away_abbreviation": "SAC",
+                                "home_score": 115,
+                                "away_score": 120,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401584811",
+                                "week": "0",
+                                "home_abbreviation": "NO",
+                                "away_abbreviation": "DAL",
+                                "home_score": 124,
+                                "away_score": 136,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401585426",
+                                "week": "0",
+                                "home_abbreviation": "NO",
+                                "away_abbreviation": "HOU",
+                                "home_score": 127,
+                                "away_score": 105,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401584942",
+                                "week": "0",
+                                "home_abbreviation": "HOU",
+                                "away_abbreviation": "MEM",
+                                "home_score": 117,
+                                "away_score": 104,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585088",
+                                "week": "0",
+                                "home_abbreviation": "MEM",
+                                "away_abbreviation": "SA",
+                                "home_score": 106,
+                                "away_score": 98,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401585808",
+                                "week": "0",
+                                "home_abbreviation": "SA",
+                                "away_abbreviation": "DEN",
+                                "home_score": 121,
+                                "away_score": 120,
+                                "home_team_won": true
+                            }
+                        ]
+                    },
+                    "Northwest": {
+                        "suck": {
+                            "group_name": "Northwest",
+                            "teams": [
+                                {
+                                    "id": "7",
+                                    "name": "Denver Nuggets",
+                                    "abbreviation": "DEN",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+                                    "parent": "Northwest"
+                                },
+                                {
+                                    "id": "16",
+                                    "name": "Minnesota Timberwolves",
+                                    "abbreviation": "MIN",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+                                    "parent": "Northwest"
+                                },
+                                {
+                                    "id": "22",
+                                    "name": "Portland Trail Blazers",
+                                    "abbreviation": "POR",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+                                    "parent": "Northwest"
+                                },
+                                {
+                                    "id": "26",
+                                    "name": "Utah Jazz",
+                                    "abbreviation": "UTAH",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+                                    "parent": "Northwest"
+                                },
+                                {
+                                    "id": "25",
+                                    "name": "Oklahoma City Thunder",
+                                    "abbreviation": "OKC",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+                                    "parent": "Northwest"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401585792",
+                                    "week": "0",
+                                    "home_abbreviation": "DEN",
+                                    "away_abbreviation": "MIN",
+                                    "home_score": 116,
+                                    "away_score": 107,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401585166",
+                                    "week": "0",
+                                    "home_abbreviation": "MIN",
+                                    "away_abbreviation": "POR",
+                                    "home_score": 116,
+                                    "away_score": 93,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401584865",
+                                    "week": "0",
+                                    "home_abbreviation": "POR",
+                                    "away_abbreviation": "UTAH",
+                                    "home_score": 121,
+                                    "away_score": 105,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401585352",
+                                    "week": "0",
+                                    "home_abbreviation": "UTAH",
+                                    "away_abbreviation": "OKC",
+                                    "home_score": 124,
+                                    "away_score": 117,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401584968",
+                                    "week": "0",
+                                    "home_abbreviation": "DEN",
+                                    "away_abbreviation": "OKC",
+                                    "home_score": 117,
+                                    "away_score": 118,
+                                    "home_team_won": false
+                                }
+                            ]
+                        }
+                    },
+                    "Pacific": {
+                        "suck": {
+                            "group_name": "Pacific",
+                            "teams": [
+                                {
+                                    "id": "9",
+                                    "name": "Golden State Warriors",
+                                    "abbreviation": "GS",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+                                    "parent": "Pacific"
+                                },
+                                {
+                                    "id": "12",
+                                    "name": "LA Clippers",
+                                    "abbreviation": "LAC",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+                                    "parent": "Pacific"
+                                },
+                                {
+                                    "id": "13",
+                                    "name": "Los Angeles Lakers",
+                                    "abbreviation": "LAL",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                                    "parent": "Pacific"
+                                },
+                                {
+                                    "id": "21",
+                                    "name": "Phoenix Suns",
+                                    "abbreviation": "PHX",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+                                    "parent": "Pacific"
+                                },
+                                {
+                                    "id": "23",
+                                    "name": "Sacramento Kings",
+                                    "abbreviation": "SAC",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+                                    "parent": "Pacific"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401584901",
+                                    "week": "0",
+                                    "home_abbreviation": "GS",
+                                    "away_abbreviation": "LAC",
+                                    "home_score": 120,
+                                    "away_score": 114,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401585246",
+                                    "week": "0",
+                                    "home_abbreviation": "LAC",
+                                    "away_abbreviation": "LAL",
+                                    "home_score": 127,
+                                    "away_score": 116,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401584704",
+                                    "week": "0",
+                                    "home_abbreviation": "LAL",
+                                    "away_abbreviation": "PHX",
+                                    "home_score": 100,
+                                    "away_score": 95,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401585195",
+                                    "week": "0",
+                                    "home_abbreviation": "PHX",
+                                    "away_abbreviation": "SAC",
+                                    "home_score": 119,
+                                    "away_score": 117,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401584148",
+                                    "week": "0",
+                                    "home_abbreviation": "SAC",
+                                    "away_abbreviation": "GS",
+                                    "home_score": 124,
+                                    "away_score": 123,
+                                    "home_team_won": true
+                                }
+                            ]
+                        }
+                    },
+                    "Southwest": {
+                        "suck": {
+                            "group_name": "Southwest",
+                            "teams": [
+                                {
+                                    "id": "3",
+                                    "name": "New Orleans Pelicans",
+                                    "abbreviation": "NO",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+                                    "parent": "Southwest"
+                                },
+                                {
+                                    "id": "6",
+                                    "name": "Dallas Mavericks",
+                                    "abbreviation": "DAL",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+                                    "parent": "Southwest"
+                                },
+                                {
+                                    "id": "10",
+                                    "name": "Houston Rockets",
+                                    "abbreviation": "HOU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+                                    "parent": "Southwest"
+                                },
+                                {
+                                    "id": "24",
+                                    "name": "San Antonio Spurs",
+                                    "abbreviation": "SA",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                                    "parent": "Southwest"
+                                },
+                                {
+                                    "id": "29",
+                                    "name": "Memphis Grizzlies",
+                                    "abbreviation": "MEM",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+                                    "parent": "Southwest"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401585175",
+                                    "week": "0",
+                                    "home_abbreviation": "DAL",
+                                    "away_abbreviation": "NO",
+                                    "home_score": 108,
+                                    "away_score": 118,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401584147",
+                                    "week": "0",
+                                    "home_abbreviation": "DAL",
+                                    "away_abbreviation": "HOU",
+                                    "home_score": 121,
+                                    "away_score": 115,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401585570",
+                                    "week": "0",
+                                    "home_abbreviation": "SA",
+                                    "away_abbreviation": "HOU",
+                                    "home_score": 101,
+                                    "away_score": 103,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401585779",
+                                    "week": "0",
+                                    "home_abbreviation": "MEM",
+                                    "away_abbreviation": "SA",
+                                    "home_score": 87,
+                                    "away_score": 102,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401584988",
+                                    "week": "0",
+                                    "home_abbreviation": "NO",
+                                    "away_abbreviation": "MEM",
+                                    "home_score": 113,
+                                    "away_score": 115,
+                                    "home_team_won": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
         "2023": {
             "NCAA Men's Basketball": {
                 "ASUN Conference": {
