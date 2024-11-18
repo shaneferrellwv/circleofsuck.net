@@ -415,6 +415,1057 @@
                         }
                     }
                 }
+            },
+            "National Football League": {
+                "suck": {
+                    "group_name": "National Football League",
+                    "teams": [
+                        {
+                            "id": "2",
+                            "name": "Buffalo Bills",
+                            "abbreviation": "BUF",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+                            "parent": "AFC East"
+                        },
+                        {
+                            "id": "12",
+                            "name": "Kansas City Chiefs",
+                            "abbreviation": "KC",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+                            "parent": "AFC West"
+                        },
+                        {
+                            "id": "4",
+                            "name": "Cincinnati Bengals",
+                            "abbreviation": "CIN",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+                            "parent": "AFC North"
+                        },
+                        {
+                            "id": "5",
+                            "name": "Cleveland Browns",
+                            "abbreviation": "CLE",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+                            "parent": "AFC North"
+                        },
+                        {
+                            "id": "30",
+                            "name": "Jacksonville Jaguars",
+                            "abbreviation": "JAX",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+                            "parent": "AFC South"
+                        },
+                        {
+                            "id": "17",
+                            "name": "New England Patriots",
+                            "abbreviation": "NE",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+                            "parent": "AFC East"
+                        },
+                        {
+                            "id": "20",
+                            "name": "New York Jets",
+                            "abbreviation": "NYJ",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+                            "parent": "AFC East"
+                        },
+                        {
+                            "id": "10",
+                            "name": "Tennessee Titans",
+                            "abbreviation": "TEN",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+                            "parent": "AFC South"
+                        },
+                        {
+                            "id": "15",
+                            "name": "Miami Dolphins",
+                            "abbreviation": "MIA",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+                            "parent": "AFC East"
+                        },
+                        {
+                            "id": "13",
+                            "name": "Las Vegas Raiders",
+                            "abbreviation": "LV",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+                            "parent": "AFC West"
+                        },
+                        {
+                            "id": "33",
+                            "name": "Baltimore Ravens",
+                            "abbreviation": "BAL",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+                            "parent": "AFC North"
+                        },
+                        {
+                            "id": "7",
+                            "name": "Denver Broncos",
+                            "abbreviation": "DEN",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+                            "parent": "AFC West"
+                        },
+                        {
+                            "id": "1",
+                            "name": "Atlanta Falcons",
+                            "abbreviation": "ATL",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+                            "parent": "NFC South"
+                        },
+                        {
+                            "id": "21",
+                            "name": "Philadelphia Eagles",
+                            "abbreviation": "PHI",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+                            "parent": "NFC East"
+                        },
+                        {
+                            "id": "6",
+                            "name": "Dallas Cowboys",
+                            "abbreviation": "DAL",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+                            "parent": "NFC East"
+                        },
+                        {
+                            "id": "23",
+                            "name": "Pittsburgh Steelers",
+                            "abbreviation": "PIT",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+                            "parent": "AFC North"
+                        },
+                        {
+                            "id": "28",
+                            "name": "Washington Commanders",
+                            "abbreviation": "WSH",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+                            "parent": "NFC East"
+                        },
+                        {
+                            "id": "22",
+                            "name": "Arizona Cardinals",
+                            "abbreviation": "ARI",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+                            "parent": "NFC West"
+                        },
+                        {
+                            "id": "24",
+                            "name": "Los Angeles Chargers",
+                            "abbreviation": "LAC",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+                            "parent": "AFC West"
+                        },
+                        {
+                            "id": "18",
+                            "name": "New Orleans Saints",
+                            "abbreviation": "NO",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+                            "parent": "NFC South"
+                        },
+                        {
+                            "id": "29",
+                            "name": "Carolina Panthers",
+                            "abbreviation": "CAR",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+                            "parent": "NFC South"
+                        },
+                        {
+                            "id": "19",
+                            "name": "New York Giants",
+                            "abbreviation": "NYG",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+                            "parent": "NFC East"
+                        },
+                        {
+                            "id": "26",
+                            "name": "Seattle Seahawks",
+                            "abbreviation": "SEA",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+                            "parent": "NFC West"
+                        },
+                        {
+                            "id": "25",
+                            "name": "San Francisco 49ers",
+                            "abbreviation": "SF",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+                            "parent": "NFC West"
+                        },
+                        {
+                            "id": "27",
+                            "name": "Tampa Bay Buccaneers",
+                            "abbreviation": "TB",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+                            "parent": "NFC South"
+                        },
+                        {
+                            "id": "8",
+                            "name": "Detroit Lions",
+                            "abbreviation": "DET",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+                            "parent": "NFC North"
+                        },
+                        {
+                            "id": "9",
+                            "name": "Green Bay Packers",
+                            "abbreviation": "GB",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+                            "parent": "NFC North"
+                        },
+                        {
+                            "id": "11",
+                            "name": "Indianapolis Colts",
+                            "abbreviation": "IND",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+                            "parent": "AFC South"
+                        },
+                        {
+                            "id": "3",
+                            "name": "Chicago Bears",
+                            "abbreviation": "CHI",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+                            "parent": "NFC North"
+                        },
+                        {
+                            "id": "14",
+                            "name": "Los Angeles Rams",
+                            "abbreviation": "LAR",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+                            "parent": "NFC West"
+                        },
+                        {
+                            "id": "16",
+                            "name": "Minnesota Vikings",
+                            "abbreviation": "MIN",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+                            "parent": "NFC North"
+                        },
+                        {
+                            "id": "34",
+                            "name": "Houston Texans",
+                            "abbreviation": "HOU",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+                            "parent": "AFC South"
+                        }
+                    ],
+                    "games": [
+                        {
+                            "id": "401671665",
+                            "week": "Week 11",
+                            "home_abbreviation": "BUF",
+                            "away_abbreviation": "KC",
+                            "home_score": 30,
+                            "away_score": 21,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671670",
+                            "week": "Week 2",
+                            "home_abbreviation": "KC",
+                            "away_abbreviation": "CIN",
+                            "home_score": 26,
+                            "away_score": 25,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671853",
+                            "week": "Week 7",
+                            "home_abbreviation": "CLE",
+                            "away_abbreviation": "CIN",
+                            "home_score": 14,
+                            "away_score": 21,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671635",
+                            "week": "Week 2",
+                            "home_abbreviation": "JAX",
+                            "away_abbreviation": "CLE",
+                            "home_score": 13,
+                            "away_score": 18,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671801",
+                            "week": "Week 7",
+                            "home_abbreviation": "JAX",
+                            "away_abbreviation": "NE",
+                            "home_score": 32,
+                            "away_score": 16,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671618",
+                            "week": "Week 8",
+                            "home_abbreviation": "NE",
+                            "away_abbreviation": "NYJ",
+                            "home_score": 25,
+                            "away_score": 22,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671636",
+                            "week": "Week 2",
+                            "home_abbreviation": "TEN",
+                            "away_abbreviation": "NYJ",
+                            "home_score": 17,
+                            "away_score": 24,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671683",
+                            "week": "Week 4",
+                            "home_abbreviation": "MIA",
+                            "away_abbreviation": "TEN",
+                            "home_score": 12,
+                            "away_score": 31,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671851",
+                            "week": "Week 11",
+                            "home_abbreviation": "MIA",
+                            "away_abbreviation": "LV",
+                            "home_score": 34,
+                            "away_score": 19,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671624",
+                            "week": "Week 2",
+                            "home_abbreviation": "BAL",
+                            "away_abbreviation": "LV",
+                            "home_score": 23,
+                            "away_score": 26,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671623",
+                            "week": "Week 9",
+                            "home_abbreviation": "BAL",
+                            "away_abbreviation": "DEN",
+                            "home_score": 41,
+                            "away_score": 10,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671748",
+                            "week": "Week 11",
+                            "home_abbreviation": "DEN",
+                            "away_abbreviation": "ATL",
+                            "home_score": 38,
+                            "away_score": 6,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671691",
+                            "week": "Week 2",
+                            "home_abbreviation": "PHI",
+                            "away_abbreviation": "ATL",
+                            "home_score": 21,
+                            "away_score": 22,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671676",
+                            "week": "Week 10",
+                            "home_abbreviation": "DAL",
+                            "away_abbreviation": "PHI",
+                            "home_score": 6,
+                            "away_score": 34,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671784",
+                            "week": "Week 5",
+                            "home_abbreviation": "PIT",
+                            "away_abbreviation": "DAL",
+                            "home_score": 17,
+                            "away_score": 20,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671641",
+                            "week": "Week 10",
+                            "home_abbreviation": "WSH",
+                            "away_abbreviation": "PIT",
+                            "home_score": 27,
+                            "away_score": 28,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671755",
+                            "week": "Week 4",
+                            "home_abbreviation": "ARI",
+                            "away_abbreviation": "WSH",
+                            "home_score": 14,
+                            "away_score": 42,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671699",
+                            "week": "Week 7",
+                            "home_abbreviation": "ARI",
+                            "away_abbreviation": "LAC",
+                            "home_score": 17,
+                            "away_score": 15,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671750",
+                            "week": "Week 8",
+                            "home_abbreviation": "LAC",
+                            "away_abbreviation": "NO",
+                            "home_score": 26,
+                            "away_score": 8,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671734",
+                            "week": "Week 1",
+                            "home_abbreviation": "NO",
+                            "away_abbreviation": "CAR",
+                            "home_score": 47,
+                            "away_score": 10,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671803",
+                            "week": "Week 10",
+                            "home_abbreviation": "CAR",
+                            "away_abbreviation": "NYG",
+                            "home_score": 20,
+                            "away_score": 17,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671680",
+                            "week": "Week 5",
+                            "home_abbreviation": "SEA",
+                            "away_abbreviation": "NYG",
+                            "home_score": 20,
+                            "away_score": 29,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671757",
+                            "week": "Week 11",
+                            "home_abbreviation": "SF",
+                            "away_abbreviation": "SEA",
+                            "home_score": 17,
+                            "away_score": 20,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671742",
+                            "week": "Week 10",
+                            "home_abbreviation": "TB",
+                            "away_abbreviation": "SF",
+                            "home_score": 20,
+                            "away_score": 23,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671721",
+                            "week": "Week 2",
+                            "home_abbreviation": "DET",
+                            "away_abbreviation": "TB",
+                            "home_score": 16,
+                            "away_score": 20,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671767",
+                            "week": "Week 9",
+                            "home_abbreviation": "GB",
+                            "away_abbreviation": "DET",
+                            "home_score": 14,
+                            "away_score": 24,
+                            "home_team_won": false
+                        },
+                        {
+                            "id": "401671723",
+                            "week": "Week 2",
+                            "home_abbreviation": "GB",
+                            "away_abbreviation": "IND",
+                            "home_score": 16,
+                            "away_score": 10,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671865",
+                            "week": "Week 3",
+                            "home_abbreviation": "IND",
+                            "away_abbreviation": "CHI",
+                            "home_score": 21,
+                            "away_score": 16,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671871",
+                            "week": "Week 4",
+                            "home_abbreviation": "CHI",
+                            "away_abbreviation": "LAR",
+                            "home_score": 24,
+                            "away_score": 18,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671817",
+                            "week": "Week 8",
+                            "home_abbreviation": "LAR",
+                            "away_abbreviation": "MIN",
+                            "home_score": 30,
+                            "away_score": 20,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671646",
+                            "week": "Week 3",
+                            "home_abbreviation": "MIN",
+                            "away_abbreviation": "HOU",
+                            "home_score": 34,
+                            "away_score": 7,
+                            "home_team_won": true
+                        },
+                        {
+                            "id": "401671859",
+                            "week": "Week 5",
+                            "home_abbreviation": "HOU",
+                            "away_abbreviation": "BUF",
+                            "home_score": 23,
+                            "away_score": 20,
+                            "home_team_won": true
+                        }
+                    ]
+                },
+                "American Football Conference": {
+                    "suck": {
+                        "group_name": "American Football Conference",
+                        "teams": [
+                            {
+                                "id": "2",
+                                "name": "Buffalo Bills",
+                                "abbreviation": "BUF",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+                                "parent": "AFC East"
+                            },
+                            {
+                                "id": "12",
+                                "name": "Kansas City Chiefs",
+                                "abbreviation": "KC",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+                                "parent": "AFC West"
+                            },
+                            {
+                                "id": "7",
+                                "name": "Denver Broncos",
+                                "abbreviation": "DEN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+                                "parent": "AFC West"
+                            },
+                            {
+                                "id": "20",
+                                "name": "New York Jets",
+                                "abbreviation": "NYJ",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+                                "parent": "AFC East"
+                            },
+                            {
+                                "id": "34",
+                                "name": "Houston Texans",
+                                "abbreviation": "HOU",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+                                "parent": "AFC South"
+                            },
+                            {
+                                "id": "17",
+                                "name": "New England Patriots",
+                                "abbreviation": "NE",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+                                "parent": "AFC East"
+                            },
+                            {
+                                "id": "4",
+                                "name": "Cincinnati Bengals",
+                                "abbreviation": "CIN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+                                "parent": "AFC North"
+                            },
+                            {
+                                "id": "5",
+                                "name": "Cleveland Browns",
+                                "abbreviation": "CLE",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+                                "parent": "AFC North"
+                            },
+                            {
+                                "id": "30",
+                                "name": "Jacksonville Jaguars",
+                                "abbreviation": "JAX",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+                                "parent": "AFC South"
+                            },
+                            {
+                                "id": "11",
+                                "name": "Indianapolis Colts",
+                                "abbreviation": "IND",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+                                "parent": "AFC South"
+                            },
+                            {
+                                "id": "23",
+                                "name": "Pittsburgh Steelers",
+                                "abbreviation": "PIT",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+                                "parent": "AFC North"
+                            },
+                            {
+                                "id": "24",
+                                "name": "Los Angeles Chargers",
+                                "abbreviation": "LAC",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+                                "parent": "AFC West"
+                            },
+                            {
+                                "id": "10",
+                                "name": "Tennessee Titans",
+                                "abbreviation": "TEN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+                                "parent": "AFC South"
+                            },
+                            {
+                                "id": "15",
+                                "name": "Miami Dolphins",
+                                "abbreviation": "MIA",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+                                "parent": "AFC East"
+                            },
+                            {
+                                "id": "13",
+                                "name": "Las Vegas Raiders",
+                                "abbreviation": "LV",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+                                "parent": "AFC West"
+                            },
+                            {
+                                "id": "33",
+                                "name": "Baltimore Ravens",
+                                "abbreviation": "BAL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+                                "parent": "AFC North"
+                            }
+                        ],
+                        "games": [
+                            {
+                                "id": "401671665",
+                                "week": "Week 11",
+                                "home_abbreviation": "BUF",
+                                "away_abbreviation": "KC",
+                                "home_score": 30,
+                                "away_score": 21,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671637",
+                                "week": "Week 10",
+                                "home_abbreviation": "KC",
+                                "away_abbreviation": "DEN",
+                                "home_score": 16,
+                                "away_score": 14,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671622",
+                                "week": "Week 4",
+                                "home_abbreviation": "NYJ",
+                                "away_abbreviation": "DEN",
+                                "home_score": 9,
+                                "away_score": 10,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671809",
+                                "week": "Week 9",
+                                "home_abbreviation": "NYJ",
+                                "away_abbreviation": "HOU",
+                                "home_score": 21,
+                                "away_score": 13,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671619",
+                                "week": "Week 6",
+                                "home_abbreviation": "NE",
+                                "away_abbreviation": "HOU",
+                                "home_score": 21,
+                                "away_score": 41,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671628",
+                                "week": "Week 1",
+                                "home_abbreviation": "CIN",
+                                "away_abbreviation": "NE",
+                                "home_score": 10,
+                                "away_score": 16,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671853",
+                                "week": "Week 7",
+                                "home_abbreviation": "CLE",
+                                "away_abbreviation": "CIN",
+                                "home_score": 14,
+                                "away_score": 21,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671635",
+                                "week": "Week 2",
+                                "home_abbreviation": "JAX",
+                                "away_abbreviation": "CLE",
+                                "home_score": 13,
+                                "away_score": 18,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671633",
+                                "week": "Week 5",
+                                "home_abbreviation": "JAX",
+                                "away_abbreviation": "IND",
+                                "home_score": 37,
+                                "away_score": 34,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671867",
+                                "week": "Week 4",
+                                "home_abbreviation": "IND",
+                                "away_abbreviation": "PIT",
+                                "home_score": 27,
+                                "away_score": 24,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671632",
+                                "week": "Week 3",
+                                "home_abbreviation": "PIT",
+                                "away_abbreviation": "LAC",
+                                "home_score": 20,
+                                "away_score": 10,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671751",
+                                "week": "Week 10",
+                                "home_abbreviation": "LAC",
+                                "away_abbreviation": "TEN",
+                                "home_score": 27,
+                                "away_score": 17,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671683",
+                                "week": "Week 4",
+                                "home_abbreviation": "MIA",
+                                "away_abbreviation": "TEN",
+                                "home_score": 12,
+                                "away_score": 31,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671851",
+                                "week": "Week 11",
+                                "home_abbreviation": "MIA",
+                                "away_abbreviation": "LV",
+                                "home_score": 34,
+                                "away_score": 19,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671624",
+                                "week": "Week 2",
+                                "home_abbreviation": "BAL",
+                                "away_abbreviation": "LV",
+                                "home_score": 23,
+                                "away_score": 26,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671783",
+                                "week": "Week 4",
+                                "home_abbreviation": "BAL",
+                                "away_abbreviation": "BUF",
+                                "home_score": 35,
+                                "away_score": 10,
+                                "home_team_won": true
+                            }
+                        ]
+                    }
+                },
+                "National Football Conference": {
+                    "suck": {
+                        "group_name": "National Football Conference",
+                        "teams": [
+                            {
+                                "id": "6",
+                                "name": "Dallas Cowboys",
+                                "abbreviation": "DAL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+                                "parent": "NFC East"
+                            },
+                            {
+                                "id": "19",
+                                "name": "New York Giants",
+                                "abbreviation": "NYG",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+                                "parent": "NFC East"
+                            },
+                            {
+                                "id": "26",
+                                "name": "Seattle Seahawks",
+                                "abbreviation": "SEA",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+                                "parent": "NFC West"
+                            },
+                            {
+                                "id": "1",
+                                "name": "Atlanta Falcons",
+                                "abbreviation": "ATL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+                                "parent": "NFC South"
+                            },
+                            {
+                                "id": "21",
+                                "name": "Philadelphia Eagles",
+                                "abbreviation": "PHI",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+                                "parent": "NFC East"
+                            },
+                            {
+                                "id": "28",
+                                "name": "Washington Commanders",
+                                "abbreviation": "WSH",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+                                "parent": "NFC East"
+                            },
+                            {
+                                "id": "22",
+                                "name": "Arizona Cardinals",
+                                "abbreviation": "ARI",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+                                "parent": "NFC West"
+                            },
+                            {
+                                "id": "14",
+                                "name": "Los Angeles Rams",
+                                "abbreviation": "LAR",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+                                "parent": "NFC West"
+                            },
+                            {
+                                "id": "16",
+                                "name": "Minnesota Vikings",
+                                "abbreviation": "MIN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+                                "parent": "NFC North"
+                            },
+                            {
+                                "id": "25",
+                                "name": "San Francisco 49ers",
+                                "abbreviation": "SF",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+                                "parent": "NFC West"
+                            },
+                            {
+                                "id": "27",
+                                "name": "Tampa Bay Buccaneers",
+                                "abbreviation": "TB",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+                                "parent": "NFC South"
+                            },
+                            {
+                                "id": "8",
+                                "name": "Detroit Lions",
+                                "abbreviation": "DET",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+                                "parent": "NFC North"
+                            },
+                            {
+                                "id": "9",
+                                "name": "Green Bay Packers",
+                                "abbreviation": "GB",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+                                "parent": "NFC North"
+                            },
+                            {
+                                "id": "3",
+                                "name": "Chicago Bears",
+                                "abbreviation": "CHI",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+                                "parent": "NFC North"
+                            },
+                            {
+                                "id": "29",
+                                "name": "Carolina Panthers",
+                                "abbreviation": "CAR",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+                                "parent": "NFC South"
+                            },
+                            {
+                                "id": "18",
+                                "name": "New Orleans Saints",
+                                "abbreviation": "NO",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+                                "parent": "NFC South"
+                            }
+                        ],
+                        "games": [
+                            {
+                                "id": "401671812",
+                                "week": "Week 4",
+                                "home_abbreviation": "NYG",
+                                "away_abbreviation": "DAL",
+                                "home_score": 15,
+                                "away_score": 20,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671680",
+                                "week": "Week 5",
+                                "home_abbreviation": "SEA",
+                                "away_abbreviation": "NYG",
+                                "home_score": 20,
+                                "away_score": 29,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671730",
+                                "week": "Week 7",
+                                "home_abbreviation": "ATL",
+                                "away_abbreviation": "SEA",
+                                "home_score": 14,
+                                "away_score": 34,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671691",
+                                "week": "Week 2",
+                                "home_abbreviation": "PHI",
+                                "away_abbreviation": "ATL",
+                                "home_score": 21,
+                                "away_score": 22,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671813",
+                                "week": "Week 11",
+                                "home_abbreviation": "PHI",
+                                "away_abbreviation": "WSH",
+                                "home_score": 26,
+                                "away_score": 18,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671755",
+                                "week": "Week 4",
+                                "home_abbreviation": "ARI",
+                                "away_abbreviation": "WSH",
+                                "home_score": 14,
+                                "away_score": 42,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671754",
+                                "week": "Week 2",
+                                "home_abbreviation": "ARI",
+                                "away_abbreviation": "LAR",
+                                "home_score": 41,
+                                "away_score": 10,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671817",
+                                "week": "Week 8",
+                                "home_abbreviation": "LAR",
+                                "away_abbreviation": "MIN",
+                                "home_score": 30,
+                                "away_score": 20,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671645",
+                                "week": "Week 2",
+                                "home_abbreviation": "MIN",
+                                "away_abbreviation": "SF",
+                                "home_score": 23,
+                                "away_score": 17,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671742",
+                                "week": "Week 10",
+                                "home_abbreviation": "TB",
+                                "away_abbreviation": "SF",
+                                "home_score": 20,
+                                "away_score": 23,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671721",
+                                "week": "Week 2",
+                                "home_abbreviation": "DET",
+                                "away_abbreviation": "TB",
+                                "home_score": 16,
+                                "away_score": 20,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671767",
+                                "week": "Week 9",
+                                "home_abbreviation": "GB",
+                                "away_abbreviation": "DET",
+                                "home_score": 14,
+                                "away_score": 24,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671869",
+                                "week": "Week 11",
+                                "home_abbreviation": "CHI",
+                                "away_abbreviation": "GB",
+                                "home_score": 19,
+                                "away_score": 20,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401671872",
+                                "week": "Week 5",
+                                "home_abbreviation": "CHI",
+                                "away_abbreviation": "CAR",
+                                "home_score": 36,
+                                "away_score": 10,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671650",
+                                "week": "Week 9",
+                                "home_abbreviation": "CAR",
+                                "away_abbreviation": "NO",
+                                "home_score": 23,
+                                "away_score": 22,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401671709",
+                                "week": "Week 2",
+                                "home_abbreviation": "DAL",
+                                "away_abbreviation": "NO",
+                                "home_score": 19,
+                                "away_score": 44,
+                                "home_team_won": false
+                            }
+                        ]
+                    }
+                }
             }
         },
         "2023": {
