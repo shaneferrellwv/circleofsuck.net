@@ -414,6 +414,177 @@
                             ]
                         }
                     }
+                },
+                "FBS (I-A)": {
+                    "Conference USA": {
+                        "suck": {
+                            "group_name": "Conference USA",
+                            "teams": [
+                                {
+                                    "id": "55",
+                                    "name": "Jacksonville State Gamecocks",
+                                    "abbreviation": "JVST",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+                                    "parent": "Conference USA"
+                                },
+                                {
+                                    "id": "2534",
+                                    "name": "Sam Houston Bearkats",
+                                    "abbreviation": "SHSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+                                    "parent": "Conference USA"
+                                },
+                                {
+                                    "id": "166",
+                                    "name": "New Mexico State Aggies",
+                                    "abbreviation": "NMSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+                                    "parent": "Conference USA"
+                                },
+                                {
+                                    "id": "2348",
+                                    "name": "Louisiana Tech Bulldogs",
+                                    "abbreviation": "LT",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+                                    "parent": "Conference USA"
+                                },
+                                {
+                                    "id": "2638",
+                                    "name": "UTEP Miners",
+                                    "abbreviation": "UTEP",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+                                    "parent": "Conference USA"
+                                },
+                                {
+                                    "id": "2229",
+                                    "name": "Florida International Panthers",
+                                    "abbreviation": "FIU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+                                    "parent": "Conference USA"
+                                },
+                                {
+                                    "id": "2393",
+                                    "name": "Middle Tennessee Blue Raiders",
+                                    "abbreviation": "MTSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+                                    "parent": "Conference USA"
+                                },
+                                {
+                                    "id": "338",
+                                    "name": "Kennesaw State Owls",
+                                    "abbreviation": "KENN",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+                                    "parent": "Conference USA"
+                                },
+                                {
+                                    "id": "2335",
+                                    "name": "Liberty Flames",
+                                    "abbreviation": "LIB",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+                                    "parent": "Conference USA"
+                                },
+                                {
+                                    "id": "98",
+                                    "name": "Western Kentucky Hilltoppers",
+                                    "abbreviation": "WKU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+                                    "parent": "Conference USA"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401641005",
+                                    "week": "Week 13",
+                                    "home_abbreviation": "JVST",
+                                    "away_abbreviation": "SHSU",
+                                    "home_score": 21,
+                                    "away_score": 11,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401641034",
+                                    "week": "Week 4",
+                                    "home_abbreviation": "SHSU",
+                                    "away_abbreviation": "NMSU",
+                                    "home_score": 31,
+                                    "away_score": 11,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401641010",
+                                    "week": "Week 8",
+                                    "home_abbreviation": "NMSU",
+                                    "away_abbreviation": "LT",
+                                    "home_score": 33,
+                                    "away_score": 30,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401641011",
+                                    "week": "Week 9",
+                                    "home_abbreviation": "LT",
+                                    "away_abbreviation": "UTEP",
+                                    "home_score": 14,
+                                    "away_score": 10,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401640983",
+                                    "week": "Week 8",
+                                    "home_abbreviation": "UTEP",
+                                    "away_abbreviation": "FIU",
+                                    "home_score": 30,
+                                    "away_score": 21,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401640988",
+                                    "week": "Week 14",
+                                    "home_abbreviation": "FIU",
+                                    "away_abbreviation": "MTSU",
+                                    "home_score": 35,
+                                    "away_score": 24,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401641019",
+                                    "week": "Week 8",
+                                    "home_abbreviation": "MTSU",
+                                    "away_abbreviation": "KENN",
+                                    "home_score": 14,
+                                    "away_score": 5,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401640993",
+                                    "week": "Week 9",
+                                    "home_abbreviation": "KENN",
+                                    "away_abbreviation": "LIB",
+                                    "home_score": 27,
+                                    "away_score": 24,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401640996",
+                                    "week": "Week 13",
+                                    "home_abbreviation": "LIB",
+                                    "away_abbreviation": "WKU",
+                                    "home_score": 38,
+                                    "away_score": 21,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401641006",
+                                    "week": "Week 14",
+                                    "home_abbreviation": "WKU",
+                                    "away_abbreviation": "JVST",
+                                    "home_score": 19,
+                                    "away_score": 17,
+                                    "home_team_won": true
+                                }
+                            ]
+                        }
+                    }
                 }
             },
             "National Football League": {
@@ -1272,6 +1443,79 @@
                                 }
                             ]
                         }
+                    },
+                    "AFC South": {
+                        "suck": {
+                            "group_name": "AFC South",
+                            "teams": [
+                                {
+                                    "id": "10",
+                                    "name": "Tennessee Titans",
+                                    "abbreviation": "TEN",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+                                    "parent": "AFC South"
+                                },
+                                {
+                                    "id": "34",
+                                    "name": "Houston Texans",
+                                    "abbreviation": "HOU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+                                    "parent": "AFC South"
+                                },
+                                {
+                                    "id": "30",
+                                    "name": "Jacksonville Jaguars",
+                                    "abbreviation": "JAX",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+                                    "parent": "AFC South"
+                                },
+                                {
+                                    "id": "11",
+                                    "name": "Indianapolis Colts",
+                                    "abbreviation": "IND",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+                                    "parent": "AFC South"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401671858",
+                                    "week": "Week 12",
+                                    "home_abbreviation": "HOU",
+                                    "away_abbreviation": "TEN",
+                                    "home_score": 27,
+                                    "away_score": 32,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401671705",
+                                    "week": "Week 13",
+                                    "home_abbreviation": "JAX",
+                                    "away_abbreviation": "HOU",
+                                    "home_score": 20,
+                                    "away_score": 23,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401671633",
+                                    "week": "Week 5",
+                                    "home_abbreviation": "JAX",
+                                    "away_abbreviation": "IND",
+                                    "home_score": 37,
+                                    "away_score": 34,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401671820",
+                                    "week": "Week 6",
+                                    "home_abbreviation": "TEN",
+                                    "away_abbreviation": "IND",
+                                    "home_score": 17,
+                                    "away_score": 20,
+                                    "home_team_won": false
+                                }
+                            ]
+                        }
                     }
                 },
                 "National Football Conference": {
@@ -1537,6 +1781,152 @@
                                 "home_team_won": false
                             }
                         ]
+                    },
+                    "NFC South": {
+                        "suck": {
+                            "group_name": "NFC South",
+                            "teams": [
+                                {
+                                    "id": "1",
+                                    "name": "Atlanta Falcons",
+                                    "abbreviation": "ATL",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+                                    "parent": "NFC South"
+                                },
+                                {
+                                    "id": "27",
+                                    "name": "Tampa Bay Buccaneers",
+                                    "abbreviation": "TB",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+                                    "parent": "NFC South"
+                                },
+                                {
+                                    "id": "29",
+                                    "name": "Carolina Panthers",
+                                    "abbreviation": "CAR",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+                                    "parent": "NFC South"
+                                },
+                                {
+                                    "id": "18",
+                                    "name": "New Orleans Saints",
+                                    "abbreviation": "NO",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+                                    "parent": "NFC South"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401671815",
+                                    "week": "Week 5",
+                                    "home_abbreviation": "ATL",
+                                    "away_abbreviation": "TB",
+                                    "home_score": 36,
+                                    "away_score": 30,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401671752",
+                                    "week": "Week 13",
+                                    "home_abbreviation": "CAR",
+                                    "away_abbreviation": "TB",
+                                    "home_score": 23,
+                                    "away_score": 26,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401671650",
+                                    "week": "Week 9",
+                                    "home_abbreviation": "CAR",
+                                    "away_abbreviation": "NO",
+                                    "home_score": 23,
+                                    "away_score": 22,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401671733",
+                                    "week": "Week 10",
+                                    "home_abbreviation": "NO",
+                                    "away_abbreviation": "ATL",
+                                    "home_score": 20,
+                                    "away_score": 17,
+                                    "home_team_won": true
+                                }
+                            ]
+                        }
+                    },
+                    "NFC West": {
+                        "suck": {
+                            "group_name": "NFC West",
+                            "teams": [
+                                {
+                                    "id": "14",
+                                    "name": "Los Angeles Rams",
+                                    "abbreviation": "LAR",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+                                    "parent": "NFC West"
+                                },
+                                {
+                                    "id": "25",
+                                    "name": "San Francisco 49ers",
+                                    "abbreviation": "SF",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+                                    "parent": "NFC West"
+                                },
+                                {
+                                    "id": "26",
+                                    "name": "Seattle Seahawks",
+                                    "abbreviation": "SEA",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+                                    "parent": "NFC West"
+                                },
+                                {
+                                    "id": "22",
+                                    "name": "Arizona Cardinals",
+                                    "abbreviation": "ARI",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+                                    "parent": "NFC West"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401671772",
+                                    "week": "Week 3",
+                                    "home_abbreviation": "LAR",
+                                    "away_abbreviation": "SF",
+                                    "home_score": 27,
+                                    "away_score": 24,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401671819",
+                                    "week": "Week 6",
+                                    "home_abbreviation": "SEA",
+                                    "away_abbreviation": "SF",
+                                    "home_score": 24,
+                                    "away_score": 36,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401671775",
+                                    "week": "Week 12",
+                                    "home_abbreviation": "SEA",
+                                    "away_abbreviation": "ARI",
+                                    "home_score": 16,
+                                    "away_score": 6,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401671754",
+                                    "week": "Week 2",
+                                    "home_abbreviation": "ARI",
+                                    "away_abbreviation": "LAR",
+                                    "home_score": 41,
+                                    "away_score": 10,
+                                    "home_team_won": true
+                                }
+                            ]
+                        }
                     }
                 }
             }
