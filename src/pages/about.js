@@ -27,10 +27,7 @@ const AboutPage = () => {
           You can find the bot on <a className='link' href="http://x.com/circleofsuck">Twitter</a> and <a className='link' href="http://instagram.com/circleofsuck">Instagram</a> at @circleofsuck.</p>
 
         <p>Because finding a Circle of Suck is a form of the Traveling Salesman Problem, we can apply any algorithm used to solve the Traveling Salesman Problem to find a circle of suck.</p>
-        <p>Unfortunately, the Traveling Salesman Problem falls under the class of NP-hard computational problems.
-          This means that mathematicians and scientists haven't been able to find an algorithm that is accurate 100% of the time to solve these problems.</p>
-        <p>Instead, we are stuck using algorithms that provide the optimal solution most of the time. For a trivial problem like finding a Circle of Suck, this is perfectly fine.
-          This bot's algorithm uses depth-first search with memoization (top-down dynamic programming) and can compute solutions for most sports leagues (on my laptop) in under one-tenth of a second.</p>
+          This bot's algorithm uses depth-first search with memoization (top-down dynamic programming) and can compute solutions for most sports leagues (on my laptop) in under one-tenth of a second.
 
         <h2>About the Creator</h2>
         <p>My name is <a className='link' href="https://www.linkedin.com/in/ferrellshanewv/">Shane Ferrell</a> and I am a super senior at the University of Florida studying Computer Science and Electrical Engineering.

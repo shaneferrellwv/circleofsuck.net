@@ -14737,6 +14737,177 @@
                         }
                     }
                 }
+            },
+            "NCAA Women's Basketball": {
+                "Conference USA": {
+                    "suck": {
+                        "group_name": "Conference USA",
+                        "teams": [
+                            {
+                                "id": "55",
+                                "name": "Jacksonville State Gamecocks",
+                                "abbreviation": "JVST",
+                                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+                                "parent": "Conference USA"
+                            },
+                            {
+                                "id": "338",
+                                "name": "Kennesaw State Owls",
+                                "abbreviation": "KENN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+                                "parent": "Conference USA"
+                            },
+                            {
+                                "id": "166",
+                                "name": "New Mexico State Aggies",
+                                "abbreviation": "NMSU",
+                                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+                                "parent": "Conference USA"
+                            },
+                            {
+                                "id": "2229",
+                                "name": "Florida International Panthers",
+                                "abbreviation": "FIU",
+                                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+                                "parent": "Conference USA"
+                            },
+                            {
+                                "id": "98",
+                                "name": "Western Kentucky Lady Toppers",
+                                "abbreviation": "WKU",
+                                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+                                "parent": "Conference USA"
+                            },
+                            {
+                                "id": "2393",
+                                "name": "Middle Tennessee Blue Raiders",
+                                "abbreviation": "MTSU",
+                                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+                                "parent": "Conference USA"
+                            },
+                            {
+                                "id": "2335",
+                                "name": "Liberty Flames",
+                                "abbreviation": "LIB",
+                                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+                                "parent": "Conference USA"
+                            },
+                            {
+                                "id": "2348",
+                                "name": "Louisiana Tech Lady Techsters",
+                                "abbreviation": "LT",
+                                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+                                "parent": "Conference USA"
+                            },
+                            {
+                                "id": "2638",
+                                "name": "UTEP Miners",
+                                "abbreviation": "UTEP",
+                                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+                                "parent": "Conference USA"
+                            },
+                            {
+                                "id": "2534",
+                                "name": "Sam Houston Bearkats",
+                                "abbreviation": "SHSU",
+                                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+                                "parent": "Conference USA"
+                            }
+                        ],
+                        "games": [
+                            {
+                                "id": "401700478",
+                                "week": "Week 9",
+                                "home_abbreviation": "JVST",
+                                "away_abbreviation": "KENN",
+                                "home_score": 68,
+                                "away_score": 56,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401700501",
+                                "week": "Week 12",
+                                "home_abbreviation": "KENN",
+                                "away_abbreviation": "NMSU",
+                                "home_score": 68,
+                                "away_score": 66,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401700491",
+                                "week": "Week 11",
+                                "home_abbreviation": "NMSU",
+                                "away_abbreviation": "FIU",
+                                "home_score": 74,
+                                "away_score": 50,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401700477",
+                                "week": "Week 9",
+                                "home_abbreviation": "WKU",
+                                "away_abbreviation": "FIU",
+                                "home_score": 79,
+                                "away_score": 80,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401700499",
+                                "week": "Week 11",
+                                "home_abbreviation": "WKU",
+                                "away_abbreviation": "MTSU",
+                                "home_score": 63,
+                                "away_score": 58,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401700479",
+                                "week": "Week 9",
+                                "home_abbreviation": "MTSU",
+                                "away_abbreviation": "LIB",
+                                "home_score": 69,
+                                "away_score": 41,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401700486",
+                                "week": "Week 10",
+                                "home_abbreviation": "LIB",
+                                "away_abbreviation": "LT",
+                                "home_score": 75,
+                                "away_score": 64,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401700476",
+                                "week": "Week 9",
+                                "home_abbreviation": "LT",
+                                "away_abbreviation": "UTEP",
+                                "home_score": 63,
+                                "away_score": 50,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401700481",
+                                "week": "Week 9",
+                                "home_abbreviation": "SHSU",
+                                "away_abbreviation": "UTEP",
+                                "home_score": 62,
+                                "away_score": 64,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401700496",
+                                "week": "Week 11",
+                                "home_abbreviation": "SHSU",
+                                "away_abbreviation": "JVST",
+                                "home_score": 53,
+                                "away_score": 48,
+                                "home_team_won": true
+                            }
+                        ]
+                    }
+                }
             }
         },
         "2024": {
