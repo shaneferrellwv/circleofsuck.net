@@ -7,7 +7,7 @@ import suck_tree from '../data/suck_tree.json';
 import './index.css'; // Import the new CSS file
 
 const IndexPage = () => {
-  const [selectedItems, setSelectedItems] = useState(['football', '2024']);
+  const [selectedItems, setSelectedItems] = useState(['football', '2025']);
   const [suckItem, setSuckItem] = useState(null); // State to store the "suck" item
 
   return (
