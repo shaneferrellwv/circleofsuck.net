@@ -24,7 +24,7 @@ const AboutPage = () => {
         what is the shortest possible route (otherwise known as a <em>Hamiltonian cycle</em>) that visits each city exactly once and returns to the origin city?
         </p>
         <p>The website is driven by a bot that periodically pulls sport leagues & scores data using a public sports API to find any <em>Hamiltonian cycles</em> within leagues, conferences, and divisions.
-          You can find the bot on <a className='link' href="http://x.com/circleofsuck">Twitter</a> and <a className='link' href="http://instagram.com/circleofsuck">Instagram</a> at @circleofsuck.</p>
+          You can find the bot on Twitter at <a className='link' href="http://x.com/circleofsuck">@circleofsuck.</a></p>
 
         <p>Because finding a Circle of Suck is a form of the Traveling Salesman Problem, we can apply any algorithm used to solve the Traveling Salesman Problem to find a circle of suck.</p>
           This bot's algorithm uses depth-first search with memoization (top-down dynamic programming) and can compute solutions for most sports leagues (on my laptop) in under one-tenth of a second.
