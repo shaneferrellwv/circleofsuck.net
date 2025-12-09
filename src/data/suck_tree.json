@@ -2,6 +2,271 @@
     "football": {
         "2025": {
             "National Football League": {
+                "American Football Conference": {
+                    "suck": {
+                        "group_name": "American Football Conference",
+                        "teams": [
+                            {
+                                "id": "2",
+                                "name": "Buffalo Bills",
+                                "abbreviation": "BUF",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+                                "parent": "AFC East"
+                            },
+                            {
+                                "id": "23",
+                                "name": "Pittsburgh Steelers",
+                                "abbreviation": "PIT",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+                                "parent": "AFC North"
+                            },
+                            {
+                                "id": "33",
+                                "name": "Baltimore Ravens",
+                                "abbreviation": "BAL",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+                                "parent": "AFC North"
+                            },
+                            {
+                                "id": "15",
+                                "name": "Miami Dolphins",
+                                "abbreviation": "MIA",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+                                "parent": "AFC East"
+                            },
+                            {
+                                "id": "20",
+                                "name": "New York Jets",
+                                "abbreviation": "NYJ",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+                                "parent": "AFC East"
+                            },
+                            {
+                                "id": "4",
+                                "name": "Cincinnati Bengals",
+                                "abbreviation": "CIN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+                                "parent": "AFC North"
+                            },
+                            {
+                                "id": "30",
+                                "name": "Jacksonville Jaguars",
+                                "abbreviation": "JAX",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+                                "parent": "AFC South"
+                            },
+                            {
+                                "id": "34",
+                                "name": "Houston Texans",
+                                "abbreviation": "HOU",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+                                "parent": "AFC South"
+                            },
+                            {
+                                "id": "12",
+                                "name": "Kansas City Chiefs",
+                                "abbreviation": "KC",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+                                "parent": "AFC West"
+                            },
+                            {
+                                "id": "11",
+                                "name": "Indianapolis Colts",
+                                "abbreviation": "IND",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+                                "parent": "AFC South"
+                            },
+                            {
+                                "id": "24",
+                                "name": "Los Angeles Chargers",
+                                "abbreviation": "LAC",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+                                "parent": "AFC West"
+                            },
+                            {
+                                "id": "7",
+                                "name": "Denver Broncos",
+                                "abbreviation": "DEN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+                                "parent": "AFC West"
+                            },
+                            {
+                                "id": "10",
+                                "name": "Tennessee Titans",
+                                "abbreviation": "TEN",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+                                "parent": "AFC South"
+                            },
+                            {
+                                "id": "5",
+                                "name": "Cleveland Browns",
+                                "abbreviation": "CLE",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+                                "parent": "AFC North"
+                            },
+                            {
+                                "id": "13",
+                                "name": "Las Vegas Raiders",
+                                "abbreviation": "LV",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+                                "parent": "AFC West"
+                            },
+                            {
+                                "id": "17",
+                                "name": "New England Patriots",
+                                "abbreviation": "NE",
+                                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+                                "parent": "AFC East"
+                            }
+                        ],
+                        "games": [
+                            {
+                                "id": "401772789",
+                                "week": "Week 13",
+                                "home_abbreviation": "PIT",
+                                "away_abbreviation": "BUF",
+                                "home_score": 7,
+                                "away_score": 26,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401772791",
+                                "week": "Week 14",
+                                "home_abbreviation": "BAL",
+                                "away_abbreviation": "PIT",
+                                "home_score": 22,
+                                "away_score": 27,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401772943",
+                                "week": "Week 9",
+                                "home_abbreviation": "MIA",
+                                "away_abbreviation": "BAL",
+                                "home_score": 6,
+                                "away_score": 28,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401772813",
+                                "week": "Week 4",
+                                "home_abbreviation": "MIA",
+                                "away_abbreviation": "NYJ",
+                                "home_score": 27,
+                                "away_score": 21,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401772758",
+                                "week": "Week 8",
+                                "home_abbreviation": "CIN",
+                                "away_abbreviation": "NYJ",
+                                "home_score": 38,
+                                "away_score": 39,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401772725",
+                                "week": "Week 2",
+                                "home_abbreviation": "CIN",
+                                "away_abbreviation": "JAX",
+                                "home_score": 31,
+                                "away_score": 27,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401772734",
+                                "week": "Week 3",
+                                "home_abbreviation": "JAX",
+                                "away_abbreviation": "HOU",
+                                "home_score": 17,
+                                "away_score": 10,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401772932",
+                                "week": "Week 14",
+                                "home_abbreviation": "KC",
+                                "away_abbreviation": "HOU",
+                                "home_score": 10,
+                                "away_score": 20,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401772779",
+                                "week": "Week 12",
+                                "home_abbreviation": "KC",
+                                "away_abbreviation": "IND",
+                                "home_score": 23,
+                                "away_score": 20,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401772756",
+                                "week": "Week 7",
+                                "home_abbreviation": "LAC",
+                                "away_abbreviation": "IND",
+                                "home_score": 24,
+                                "away_score": 38,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401772735",
+                                "week": "Week 3",
+                                "home_abbreviation": "LAC",
+                                "away_abbreviation": "DEN",
+                                "home_score": 23,
+                                "away_score": 20,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401772832",
+                                "week": "Week 1",
+                                "home_abbreviation": "DEN",
+                                "away_abbreviation": "TEN",
+                                "home_score": 20,
+                                "away_score": 12,
+                                "home_team_won": true
+                            },
+                            {
+                                "id": "401772898",
+                                "week": "Week 14",
+                                "home_abbreviation": "CLE",
+                                "away_abbreviation": "TEN",
+                                "home_score": 29,
+                                "away_score": 31,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401772784",
+                                "week": "Week 12",
+                                "home_abbreviation": "LV",
+                                "away_abbreviation": "CLE",
+                                "home_score": 10,
+                                "away_score": 24,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401772720",
+                                "week": "Week 1",
+                                "home_abbreviation": "NE",
+                                "away_abbreviation": "LV",
+                                "home_score": 13,
+                                "away_score": 20,
+                                "home_team_won": false
+                            },
+                            {
+                                "id": "401772922",
+                                "week": "Week 5",
+                                "home_abbreviation": "BUF",
+                                "away_abbreviation": "NE",
+                                "home_score": 20,
+                                "away_score": 23,
+                                "home_team_won": false
+                            }
+                        ]
+                    }
+                },
                 "National Football Conference": {
                     "NFC East": {
                         "suck": {
@@ -598,160 +863,655 @@
                 }
             },
             "NCAA - Football": {
-                "FCS": {
-                    "United Athletic Conference": {
+                "FBS": {
+                    "Atlantic Coast Conference": {
                         "suck": {
-                            "group_name": "United Athletic Conference",
+                            "group_name": "Atlantic Coast Conference",
                             "teams": [
                                 {
-                                    "id": "253",
-                                    "name": "Southern Utah Thunderbirds",
-                                    "abbreviation": "SUU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
-                                    "parent": "United Athletic Conference"
+                                    "id": "24",
+                                    "name": "Stanford Cardinal",
+                                    "abbreviation": "STAN",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+                                    "parent": "Atlantic Coast Conference"
                                 },
                                 {
-                                    "id": "2000",
-                                    "name": "Abilene Christian Wildcats",
-                                    "abbreviation": "ACU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
-                                    "parent": "United Athletic Conference"
+                                    "id": "25",
+                                    "name": "California Golden Bears",
+                                    "abbreviation": "CAL",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+                                    "parent": "Atlantic Coast Conference"
                                 },
                                 {
-                                    "id": "2627",
-                                    "name": "Tarleton State Texans",
-                                    "abbreviation": "TAR",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png",
-                                    "parent": "United Athletic Conference"
+                                    "id": "97",
+                                    "name": "Louisville Cardinals",
+                                    "abbreviation": "LOU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+                                    "parent": "Atlantic Coast Conference"
                                 },
                                 {
-                                    "id": "2110",
-                                    "name": "Central Arkansas Bears",
-                                    "abbreviation": "CARK",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
-                                    "parent": "United Athletic Conference"
+                                    "id": "103",
+                                    "name": "Boston College Eagles",
+                                    "abbreviation": "BC",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+                                    "parent": "Atlantic Coast Conference"
                                 },
                                 {
-                                    "id": "3101",
-                                    "name": "Utah Tech Trailblazers",
-                                    "abbreviation": "UTU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
-                                    "parent": "United Athletic Conference"
+                                    "id": "183",
+                                    "name": "Syracuse Orange",
+                                    "abbreviation": "SYR",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+                                    "parent": "Atlantic Coast Conference"
                                 },
                                 {
-                                    "id": "2453",
-                                    "name": "North Alabama Lions",
-                                    "abbreviation": "UNA",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
-                                    "parent": "United Athletic Conference"
+                                    "id": "228",
+                                    "name": "Clemson Tigers",
+                                    "abbreviation": "CLEM",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+                                    "parent": "Atlantic Coast Conference"
                                 },
                                 {
-                                    "id": "2198",
-                                    "name": "Eastern Kentucky Colonels",
-                                    "abbreviation": "EKU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png",
-                                    "parent": "United Athletic Conference"
+                                    "id": "52",
+                                    "name": "Florida State Seminoles",
+                                    "abbreviation": "FSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+                                    "parent": "Atlantic Coast Conference"
                                 },
                                 {
-                                    "id": "2046",
-                                    "name": "Austin Peay Governors",
-                                    "abbreviation": "APSU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png",
-                                    "parent": "United Athletic Conference"
+                                    "id": "154",
+                                    "name": "Wake Forest Demon Deacons",
+                                    "abbreviation": "WAKE",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+                                    "parent": "Atlantic Coast Conference"
                                 },
                                 {
-                                    "id": "2698",
-                                    "name": "West Georgia Wolves",
-                                    "abbreviation": "WES",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
-                                    "parent": "United Athletic Conference"
+                                    "id": "2567",
+                                    "name": "SMU Mustangs",
+                                    "abbreviation": "SMU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+                                    "parent": "Atlantic Coast Conference"
+                                },
+                                {
+                                    "id": "2390",
+                                    "name": "Miami Hurricanes",
+                                    "abbreviation": "MIA",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+                                    "parent": "Atlantic Coast Conference"
+                                },
+                                {
+                                    "id": "221",
+                                    "name": "Pittsburgh Panthers",
+                                    "abbreviation": "PITT",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+                                    "parent": "Atlantic Coast Conference"
+                                },
+                                {
+                                    "id": "59",
+                                    "name": "Georgia Tech Yellow Jackets",
+                                    "abbreviation": "GT",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+                                    "parent": "Atlantic Coast Conference"
+                                },
+                                {
+                                    "id": "150",
+                                    "name": "Duke Blue Devils",
+                                    "abbreviation": "DUKE",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+                                    "parent": "Atlantic Coast Conference"
+                                },
+                                {
+                                    "id": "258",
+                                    "name": "Virginia Cavaliers",
+                                    "abbreviation": "UVA",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+                                    "parent": "Atlantic Coast Conference"
+                                },
+                                {
+                                    "id": "259",
+                                    "name": "Virginia Tech Hokies",
+                                    "abbreviation": "VT",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+                                    "parent": "Atlantic Coast Conference"
+                                },
+                                {
+                                    "id": "152",
+                                    "name": "NC State Wolfpack",
+                                    "abbreviation": "NCSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+                                    "parent": "Atlantic Coast Conference"
+                                },
+                                {
+                                    "id": "153",
+                                    "name": "North Carolina Tar Heels",
+                                    "abbreviation": "UNC",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+                                    "parent": "Atlantic Coast Conference"
                                 }
                             ],
                             "games": [
                                 {
-                                    "id": "401767243",
-                                    "week": "Week 8",
-                                    "home_abbreviation": "SUU",
-                                    "away_abbreviation": "ACU",
+                                    "id": "401754599",
+                                    "week": "Week 13",
+                                    "home_abbreviation": "STAN",
+                                    "away_abbreviation": "CAL",
                                     "home_score": 31,
+                                    "away_score": 10,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401754585",
+                                    "week": "Week 11",
+                                    "home_abbreviation": "LOU",
+                                    "away_abbreviation": "CAL",
+                                    "home_score": 26,
+                                    "away_score": 29,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401754570",
+                                    "week": "Week 9",
+                                    "home_abbreviation": "LOU",
+                                    "away_abbreviation": "BC",
+                                    "home_score": 38,
                                     "away_score": 24,
                                     "home_team_won": true
                                 },
                                 {
-                                    "id": "401767244",
-                                    "week": "Week 10",
-                                    "home_abbreviation": "ACU",
-                                    "away_abbreviation": "TAR",
-                                    "home_score": 31,
-                                    "away_score": 28,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401767305",
-                                    "week": "Week 3",
-                                    "home_abbreviation": "CARK",
-                                    "away_abbreviation": "TAR",
-                                    "home_score": 10,
-                                    "away_score": 56,
+                                    "id": "401754608",
+                                    "week": "Week 14",
+                                    "home_abbreviation": "SYR",
+                                    "away_abbreviation": "BC",
+                                    "home_score": 12,
+                                    "away_score": 34,
                                     "home_team_won": false
                                 },
                                 {
-                                    "id": "401769869",
-                                    "week": "Week 6",
-                                    "home_abbreviation": "CARK",
-                                    "away_abbreviation": "UTU",
-                                    "home_score": 23,
-                                    "away_score": 17,
+                                    "id": "401754537",
+                                    "week": "Week 4",
+                                    "home_abbreviation": "CLEM",
+                                    "away_abbreviation": "SYR",
+                                    "home_score": 21,
+                                    "away_score": 34,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401754586",
+                                    "week": "Week 11",
+                                    "home_abbreviation": "CLEM",
+                                    "away_abbreviation": "FSU",
+                                    "home_score": 24,
+                                    "away_score": 10,
                                     "home_team_won": true
                                 },
                                 {
-                                    "id": "401767288",
+                                    "id": "401754578",
                                     "week": "Week 10",
-                                    "home_abbreviation": "UTU",
-                                    "away_abbreviation": "UNA",
-                                    "home_score": 34,
-                                    "away_score": 33,
+                                    "home_abbreviation": "FSU",
+                                    "away_abbreviation": "WAKE",
+                                    "home_score": 42,
+                                    "away_score": 7,
                                     "home_team_won": true
                                 },
                                 {
-                                    "id": "401767280",
-                                    "week": "Week 8",
-                                    "home_abbreviation": "UNA",
-                                    "away_abbreviation": "EKU",
-                                    "home_score": 35,
-                                    "away_score": 14,
+                                    "id": "401752942",
+                                    "week": "Week 9",
+                                    "home_abbreviation": "WAKE",
+                                    "away_abbreviation": "SMU",
+                                    "home_score": 13,
+                                    "away_score": 12,
                                     "home_team_won": true
                                 },
                                 {
-                                    "id": "401767251",
-                                    "week": "Week 7",
-                                    "home_abbreviation": "EKU",
-                                    "away_abbreviation": "APSU",
-                                    "home_score": 34,
+                                    "id": "401754581",
+                                    "week": "Week 10",
+                                    "home_abbreviation": "SMU",
+                                    "away_abbreviation": "MIA",
+                                    "home_score": 26,
                                     "away_score": 20,
                                     "home_team_won": true
                                 },
                                 {
-                                    "id": "401767250",
-                                    "week": "Week 6",
-                                    "home_abbreviation": "APSU",
-                                    "away_abbreviation": "WES",
-                                    "home_score": 44,
-                                    "away_score": 30,
+                                    "id": "401754611",
+                                    "week": "Week 14",
+                                    "home_abbreviation": "PITT",
+                                    "away_abbreviation": "MIA",
+                                    "home_score": 7,
+                                    "away_score": 38,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401754601",
+                                    "week": "Week 13",
+                                    "home_abbreviation": "GT",
+                                    "away_abbreviation": "PITT",
+                                    "home_score": 28,
+                                    "away_score": 42,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401754566",
+                                    "week": "Week 8",
+                                    "home_abbreviation": "DUKE",
+                                    "away_abbreviation": "GT",
+                                    "home_score": 18,
+                                    "away_score": 27,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401777328",
+                                    "week": "Week 15",
+                                    "home_abbreviation": "UVA",
+                                    "away_abbreviation": "DUKE",
+                                    "home_score": 20,
+                                    "away_score": 27,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401754613",
+                                    "week": "Week 14",
+                                    "home_abbreviation": "UVA",
+                                    "away_abbreviation": "VT",
+                                    "home_score": 27,
+                                    "away_score": 7,
                                     "home_team_won": true
                                 },
                                 {
-                                    "id": "401767293",
+                                    "id": "401754548",
                                     "week": "Week 5",
-                                    "home_abbreviation": "SUU",
-                                    "away_abbreviation": "WES",
-                                    "home_score": 24,
-                                    "away_score": 27,
+                                    "home_abbreviation": "NCSU",
+                                    "away_abbreviation": "VT",
+                                    "home_score": 21,
+                                    "away_score": 23,
                                     "home_team_won": false
+                                },
+                                {
+                                    "id": "401754612",
+                                    "week": "Week 14",
+                                    "home_abbreviation": "NCSU",
+                                    "away_abbreviation": "UNC",
+                                    "home_score": 42,
+                                    "away_score": 19,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401754588",
+                                    "week": "Week 11",
+                                    "home_abbreviation": "UNC",
+                                    "away_abbreviation": "STAN",
+                                    "home_score": 20,
+                                    "away_score": 15,
+                                    "home_team_won": true
                                 }
                             ]
                         }
                     },
+                    "Mountain West Conference": {
+                        "suck": {
+                            "group_name": "Mountain West Conference",
+                            "teams": [
+                                {
+                                    "id": "21",
+                                    "name": "San Diego State Aztecs",
+                                    "abbreviation": "SDSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "68",
+                                    "name": "Boise State Broncos",
+                                    "abbreviation": "BOIS",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "167",
+                                    "name": "New Mexico Lobos",
+                                    "abbreviation": "UNM",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "2439",
+                                    "name": "UNLV Rebels",
+                                    "abbreviation": "UNLV",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "328",
+                                    "name": "Utah State Aggies",
+                                    "abbreviation": "USU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "2005",
+                                    "name": "Air Force Falcons",
+                                    "abbreviation": "AFA",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "36",
+                                    "name": "Colorado State Rams",
+                                    "abbreviation": "CSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "278",
+                                    "name": "Fresno State Bulldogs",
+                                    "abbreviation": "FRES",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "2440",
+                                    "name": "Nevada Wolf Pack",
+                                    "abbreviation": "NEV",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "2751",
+                                    "name": "Wyoming Cowboys",
+                                    "abbreviation": "WYO",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "23",
+                                    "name": "San Jos\u00e9 State Spartans",
+                                    "abbreviation": "SJSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+                                    "parent": "Mountain West Conference"
+                                },
+                                {
+                                    "id": "62",
+                                    "name": "Hawai'i Rainbow Warriors",
+                                    "abbreviation": "HAW",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+                                    "parent": "Mountain West Conference"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401760410",
+                                    "week": "Week 12",
+                                    "home_abbreviation": "SDSU",
+                                    "away_abbreviation": "BOIS",
+                                    "home_score": 17,
+                                    "away_score": 7,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401760387",
+                                    "week": "Week 7",
+                                    "home_abbreviation": "BOIS",
+                                    "away_abbreviation": "UNM",
+                                    "home_score": 41,
+                                    "away_score": 25,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401760404",
+                                    "week": "Week 10",
+                                    "home_abbreviation": "UNLV",
+                                    "away_abbreviation": "UNM",
+                                    "home_score": 35,
+                                    "away_score": 40,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401760414",
+                                    "week": "Week 12",
+                                    "home_abbreviation": "UNLV",
+                                    "away_abbreviation": "USU",
+                                    "home_score": 29,
+                                    "away_score": 26,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401760368",
+                                    "week": "Week 3",
+                                    "home_abbreviation": "USU",
+                                    "away_abbreviation": "AFA",
+                                    "home_score": 49,
+                                    "away_score": 30,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401760421",
+                                    "week": "Week 14",
+                                    "home_abbreviation": "CSU",
+                                    "away_abbreviation": "AFA",
+                                    "home_score": 21,
+                                    "away_score": 42,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401760388",
+                                    "week": "Week 7",
+                                    "home_abbreviation": "CSU",
+                                    "away_abbreviation": "FRES",
+                                    "home_score": 49,
+                                    "away_score": 21,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401760383",
+                                    "week": "Week 6",
+                                    "home_abbreviation": "FRES",
+                                    "away_abbreviation": "NEV",
+                                    "home_score": 20,
+                                    "away_score": 17,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401760419",
+                                    "week": "Week 13",
+                                    "home_abbreviation": "WYO",
+                                    "away_abbreviation": "NEV",
+                                    "home_score": 7,
+                                    "away_score": 13,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401760391",
+                                    "week": "Week 7",
+                                    "home_abbreviation": "WYO",
+                                    "away_abbreviation": "SJSU",
+                                    "home_score": 35,
+                                    "away_score": 28,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401760403",
+                                    "week": "Week 10",
+                                    "home_abbreviation": "SJSU",
+                                    "away_abbreviation": "HAW",
+                                    "home_score": 45,
+                                    "away_score": 38,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401760408",
+                                    "week": "Week 11",
+                                    "home_abbreviation": "HAW",
+                                    "away_abbreviation": "SDSU",
+                                    "home_score": 38,
+                                    "away_score": 6,
+                                    "home_team_won": true
+                                }
+                            ]
+                        }
+                    },
+                    "Pac-12 Conference": {
+                        "suck": {
+                            "group_name": "Pac-12 Conference",
+                            "teams": [
+                                {
+                                    "id": "204",
+                                    "name": "Oregon State Beavers",
+                                    "abbreviation": "ORST",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+                                    "parent": "Pac-12 Conference"
+                                },
+                                {
+                                    "id": "265",
+                                    "name": "Washington State Cougars",
+                                    "abbreviation": "WSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+                                    "parent": "Pac-12 Conference"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401752943",
+                                    "week": "Week 10",
+                                    "home_abbreviation": "ORST",
+                                    "away_abbreviation": "WSU",
+                                    "home_score": 10,
+                                    "away_score": 7,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401752946",
+                                    "week": "Week 14",
+                                    "home_abbreviation": "WSU",
+                                    "away_abbreviation": "ORST",
+                                    "home_score": 32,
+                                    "away_score": 8,
+                                    "home_team_won": true
+                                }
+                            ]
+                        }
+                    },
+                    "Sun Belt Conference": {
+                        "Sun Belt - West": {
+                            "suck": {
+                                "group_name": "Sun Belt - West",
+                                "teams": [
+                                    {
+                                        "id": "6",
+                                        "name": "South Alabama Jaguars",
+                                        "abbreviation": "USA",
+                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+                                        "parent": "Sun Belt - West"
+                                    },
+                                    {
+                                        "id": "2433",
+                                        "name": "UL Monroe Warhawks",
+                                        "abbreviation": "ULM",
+                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+                                        "parent": "Sun Belt - West"
+                                    },
+                                    {
+                                        "id": "2032",
+                                        "name": "Arkansas State Red Wolves",
+                                        "abbreviation": "ARST",
+                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+                                        "parent": "Sun Belt - West"
+                                    },
+                                    {
+                                        "id": "2653",
+                                        "name": "Troy Trojans",
+                                        "abbreviation": "TROY",
+                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+                                        "parent": "Sun Belt - West"
+                                    },
+                                    {
+                                        "id": "326",
+                                        "name": "Texas State Bobcats",
+                                        "abbreviation": "TXST",
+                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+                                        "parent": "Sun Belt - West"
+                                    },
+                                    {
+                                        "id": "2572",
+                                        "name": "Southern Miss Golden Eagles",
+                                        "abbreviation": "USM",
+                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+                                        "parent": "Sun Belt - West"
+                                    },
+                                    {
+                                        "id": "309",
+                                        "name": "Louisiana Ragin' Cajuns",
+                                        "abbreviation": "UL",
+                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+                                        "parent": "Sun Belt - West"
+                                    }
+                                ],
+                                "games": [
+                                    {
+                                        "id": "401761653",
+                                        "week": "Week 12",
+                                        "home_abbreviation": "ULM",
+                                        "away_abbreviation": "USA",
+                                        "home_score": 14,
+                                        "away_score": 26,
+                                        "home_team_won": false
+                                    },
+                                    {
+                                        "id": "401761616",
+                                        "week": "Week 5",
+                                        "home_abbreviation": "ULM",
+                                        "away_abbreviation": "ARST",
+                                        "home_score": 28,
+                                        "away_score": 16,
+                                        "home_team_won": true
+                                    },
+                                    {
+                                        "id": "401761643",
+                                        "week": "Week 10",
+                                        "home_abbreviation": "TROY",
+                                        "away_abbreviation": "ARST",
+                                        "home_score": 10,
+                                        "away_score": 23,
+                                        "home_team_won": false
+                                    },
+                                    {
+                                        "id": "401761627",
+                                        "week": "Week 7",
+                                        "home_abbreviation": "TXST",
+                                        "away_abbreviation": "TROY",
+                                        "home_score": 41,
+                                        "away_score": 48,
+                                        "home_team_won": false
+                                    },
+                                    {
+                                        "id": "401761654",
+                                        "week": "Week 12",
+                                        "home_abbreviation": "USM",
+                                        "away_abbreviation": "TXST",
+                                        "home_score": 14,
+                                        "away_score": 41,
+                                        "home_team_won": false
+                                    },
+                                    {
+                                        "id": "401761668",
+                                        "week": "Week 8",
+                                        "home_abbreviation": "UL",
+                                        "away_abbreviation": "USM",
+                                        "home_score": 10,
+                                        "away_score": 22,
+                                        "home_team_won": false
+                                    },
+                                    {
+                                        "id": "401761642",
+                                        "week": "Week 10",
+                                        "home_abbreviation": "USA",
+                                        "away_abbreviation": "UL",
+                                        "home_score": 22,
+                                        "away_score": 31,
+                                        "home_team_won": false
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "FCS": {
                     "Ivy League": {
                         "suck": {
                             "group_name": "Ivy League",
@@ -884,6 +1644,175 @@
                                     "away_abbreviation": "YALE",
                                     "home_score": 17,
                                     "away_score": 16,
+                                    "home_team_won": true
+                                }
+                            ]
+                        }
+                    },
+                    "Missouri Valley Football Conference": {
+                        "suck": {
+                            "group_name": "Missouri Valley Football Conference",
+                            "teams": [
+                                {
+                                    "id": "79",
+                                    "name": "Southern Illinois Salukis",
+                                    "abbreviation": "SIU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
+                                    "parent": "Missouri Valley Football Conference"
+                                },
+                                {
+                                    "id": "2287",
+                                    "name": "Illinois State Redbirds",
+                                    "abbreviation": "ILST",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png",
+                                    "parent": "Missouri Valley Football Conference"
+                                },
+                                {
+                                    "id": "2449",
+                                    "name": "North Dakota State Bison",
+                                    "abbreviation": "NDSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+                                    "parent": "Missouri Valley Football Conference"
+                                },
+                                {
+                                    "id": "233",
+                                    "name": "South Dakota Coyotes",
+                                    "abbreviation": "SDAK",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
+                                    "parent": "Missouri Valley Football Conference"
+                                },
+                                {
+                                    "id": "155",
+                                    "name": "North Dakota Fighting Hawks",
+                                    "abbreviation": "UND",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+                                    "parent": "Missouri Valley Football Conference"
+                                },
+                                {
+                                    "id": "2460",
+                                    "name": "Northern Iowa Panthers",
+                                    "abbreviation": "UNI",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
+                                    "parent": "Missouri Valley Football Conference"
+                                },
+                                {
+                                    "id": "93",
+                                    "name": "Murray State Racers",
+                                    "abbreviation": "MUR",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/93.png",
+                                    "parent": "Missouri Valley Football Conference"
+                                },
+                                {
+                                    "id": "282",
+                                    "name": "Indiana State Sycamores",
+                                    "abbreviation": "INST",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/282.png",
+                                    "parent": "Missouri Valley Football Conference"
+                                },
+                                {
+                                    "id": "2571",
+                                    "name": "South Dakota State Jackrabbits",
+                                    "abbreviation": "SDST",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png",
+                                    "parent": "Missouri Valley Football Conference"
+                                },
+                                {
+                                    "id": "2754",
+                                    "name": "Youngstown State Penguins",
+                                    "abbreviation": "YSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png",
+                                    "parent": "Missouri Valley Football Conference"
+                                }
+                            ],
+                            "games": [
+                                {
+                                    "id": "401767445",
+                                    "week": "Week 13",
+                                    "home_abbreviation": "ILST",
+                                    "away_abbreviation": "SIU",
+                                    "home_score": 7,
+                                    "away_score": 37,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401836198",
+                                    "week": "Week 15",
+                                    "home_abbreviation": "NDSU",
+                                    "away_abbreviation": "ILST",
+                                    "home_score": 28,
+                                    "away_score": 29,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401767510",
+                                    "week": "Week 5",
+                                    "home_abbreviation": "NDSU",
+                                    "away_abbreviation": "SDAK",
+                                    "home_score": 51,
+                                    "away_score": 13,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401767506",
+                                    "week": "Week 10",
+                                    "home_abbreviation": "SDAK",
+                                    "away_abbreviation": "UND",
+                                    "home_score": 26,
+                                    "away_score": 21,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401767503",
+                                    "week": "Week 6",
+                                    "home_abbreviation": "UNI",
+                                    "away_abbreviation": "UND",
+                                    "home_score": 7,
+                                    "away_score": 35,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401767500",
+                                    "week": "Week 11",
+                                    "home_abbreviation": "UNI",
+                                    "away_abbreviation": "MUR",
+                                    "home_score": 31,
+                                    "away_score": 14,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401767453",
+                                    "week": "Week 13",
+                                    "home_abbreviation": "INST",
+                                    "away_abbreviation": "MUR",
+                                    "home_score": 17,
+                                    "away_score": 31,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401767451",
+                                    "week": "Week 10",
+                                    "home_abbreviation": "SDST",
+                                    "away_abbreviation": "INST",
+                                    "home_score": 12,
+                                    "away_score": 24,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401767546",
+                                    "week": "Week 6",
+                                    "home_abbreviation": "YSU",
+                                    "away_abbreviation": "SDST",
+                                    "home_score": 30,
+                                    "away_score": 35,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401767548",
+                                    "week": "Week 11",
+                                    "home_abbreviation": "YSU",
+                                    "away_abbreviation": "SIU",
+                                    "home_score": 48,
+                                    "away_score": 38,
                                     "home_team_won": true
                                 }
                             ]
@@ -1073,651 +2002,156 @@
                                 }
                             ]
                         }
-                    }
-                },
-                "FBS": {
-                    "Mountain West Conference": {
+                    },
+                    "United Athletic Conference": {
                         "suck": {
-                            "group_name": "Mountain West Conference",
+                            "group_name": "United Athletic Conference",
                             "teams": [
                                 {
-                                    "id": "21",
-                                    "name": "San Diego State Aztecs",
-                                    "abbreviation": "SDSU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
-                                    "parent": "Mountain West Conference"
+                                    "id": "253",
+                                    "name": "Southern Utah Thunderbirds",
+                                    "abbreviation": "SUU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
+                                    "parent": "United Athletic Conference"
                                 },
                                 {
-                                    "id": "68",
-                                    "name": "Boise State Broncos",
-                                    "abbreviation": "BOIS",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-                                    "parent": "Mountain West Conference"
+                                    "id": "2000",
+                                    "name": "Abilene Christian Wildcats",
+                                    "abbreviation": "ACU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
+                                    "parent": "United Athletic Conference"
                                 },
                                 {
-                                    "id": "167",
-                                    "name": "New Mexico Lobos",
-                                    "abbreviation": "UNM",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
-                                    "parent": "Mountain West Conference"
+                                    "id": "2627",
+                                    "name": "Tarleton State Texans",
+                                    "abbreviation": "TAR",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png",
+                                    "parent": "United Athletic Conference"
                                 },
                                 {
-                                    "id": "2439",
-                                    "name": "UNLV Rebels",
-                                    "abbreviation": "UNLV",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
-                                    "parent": "Mountain West Conference"
+                                    "id": "2110",
+                                    "name": "Central Arkansas Bears",
+                                    "abbreviation": "CARK",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
+                                    "parent": "United Athletic Conference"
                                 },
                                 {
-                                    "id": "328",
-                                    "name": "Utah State Aggies",
-                                    "abbreviation": "USU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
-                                    "parent": "Mountain West Conference"
+                                    "id": "3101",
+                                    "name": "Utah Tech Trailblazers",
+                                    "abbreviation": "UTU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
+                                    "parent": "United Athletic Conference"
                                 },
                                 {
-                                    "id": "2005",
-                                    "name": "Air Force Falcons",
-                                    "abbreviation": "AFA",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-                                    "parent": "Mountain West Conference"
+                                    "id": "2453",
+                                    "name": "North Alabama Lions",
+                                    "abbreviation": "UNA",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
+                                    "parent": "United Athletic Conference"
                                 },
                                 {
-                                    "id": "2751",
-                                    "name": "Wyoming Cowboys",
-                                    "abbreviation": "WYO",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
-                                    "parent": "Mountain West Conference"
+                                    "id": "2198",
+                                    "name": "Eastern Kentucky Colonels",
+                                    "abbreviation": "EKU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png",
+                                    "parent": "United Athletic Conference"
                                 },
                                 {
-                                    "id": "36",
-                                    "name": "Colorado State Rams",
-                                    "abbreviation": "CSU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
-                                    "parent": "Mountain West Conference"
+                                    "id": "2046",
+                                    "name": "Austin Peay Governors",
+                                    "abbreviation": "APSU",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png",
+                                    "parent": "United Athletic Conference"
                                 },
                                 {
-                                    "id": "278",
-                                    "name": "Fresno State Bulldogs",
-                                    "abbreviation": "FRES",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
-                                    "parent": "Mountain West Conference"
-                                },
-                                {
-                                    "id": "2440",
-                                    "name": "Nevada Wolf Pack",
-                                    "abbreviation": "NEV",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
-                                    "parent": "Mountain West Conference"
-                                },
-                                {
-                                    "id": "23",
-                                    "name": "San Jos\u00e9 State Spartans",
-                                    "abbreviation": "SJSU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
-                                    "parent": "Mountain West Conference"
-                                },
-                                {
-                                    "id": "62",
-                                    "name": "Hawai'i Rainbow Warriors",
-                                    "abbreviation": "HAW",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
-                                    "parent": "Mountain West Conference"
+                                    "id": "2698",
+                                    "name": "West Georgia Wolves",
+                                    "abbreviation": "WES",
+                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+                                    "parent": "United Athletic Conference"
                                 }
                             ],
                             "games": [
                                 {
-                                    "id": "401760410",
-                                    "week": "Week 12",
-                                    "home_abbreviation": "SDSU",
-                                    "away_abbreviation": "BOIS",
-                                    "home_score": 17,
-                                    "away_score": 7,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401760387",
-                                    "week": "Week 7",
-                                    "home_abbreviation": "BOIS",
-                                    "away_abbreviation": "UNM",
-                                    "home_score": 41,
-                                    "away_score": 25,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401760404",
-                                    "week": "Week 10",
-                                    "home_abbreviation": "UNLV",
-                                    "away_abbreviation": "UNM",
-                                    "home_score": 35,
-                                    "away_score": 40,
-                                    "home_team_won": false
-                                },
-                                {
-                                    "id": "401760414",
-                                    "week": "Week 12",
-                                    "home_abbreviation": "UNLV",
-                                    "away_abbreviation": "USU",
-                                    "home_score": 29,
-                                    "away_score": 26,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401760368",
-                                    "week": "Week 3",
-                                    "home_abbreviation": "USU",
-                                    "away_abbreviation": "AFA",
-                                    "home_score": 49,
-                                    "away_score": 30,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401760392",
+                                    "id": "401767243",
                                     "week": "Week 8",
-                                    "home_abbreviation": "AFA",
-                                    "away_abbreviation": "WYO",
-                                    "home_score": 24,
-                                    "away_score": 21,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401760398",
-                                    "week": "Week 9",
-                                    "home_abbreviation": "WYO",
-                                    "away_abbreviation": "CSU",
-                                    "home_score": 28,
-                                    "away_score": 0,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401760388",
-                                    "week": "Week 7",
-                                    "home_abbreviation": "CSU",
-                                    "away_abbreviation": "FRES",
-                                    "home_score": 49,
-                                    "away_score": 21,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401760383",
-                                    "week": "Week 6",
-                                    "home_abbreviation": "FRES",
-                                    "away_abbreviation": "NEV",
-                                    "home_score": 20,
-                                    "away_score": 17,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401760413",
-                                    "week": "Week 12",
-                                    "home_abbreviation": "NEV",
-                                    "away_abbreviation": "SJSU",
-                                    "home_score": 55,
-                                    "away_score": 10,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401760403",
-                                    "week": "Week 10",
-                                    "home_abbreviation": "SJSU",
-                                    "away_abbreviation": "HAW",
-                                    "home_score": 45,
-                                    "away_score": 38,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401760408",
-                                    "week": "Week 11",
-                                    "home_abbreviation": "HAW",
-                                    "away_abbreviation": "SDSU",
-                                    "home_score": 38,
-                                    "away_score": 6,
-                                    "home_team_won": true
-                                }
-                            ]
-                        }
-                    },
-                    "Sun Belt Conference": {
-                        "Sun Belt - West": {
-                            "suck": {
-                                "group_name": "Sun Belt - West",
-                                "teams": [
-                                    {
-                                        "id": "6",
-                                        "name": "South Alabama Jaguars",
-                                        "abbreviation": "USA",
-                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-                                        "parent": "Sun Belt - West"
-                                    },
-                                    {
-                                        "id": "2433",
-                                        "name": "UL Monroe Warhawks",
-                                        "abbreviation": "ULM",
-                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-                                        "parent": "Sun Belt - West"
-                                    },
-                                    {
-                                        "id": "2032",
-                                        "name": "Arkansas State Red Wolves",
-                                        "abbreviation": "ARST",
-                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
-                                        "parent": "Sun Belt - West"
-                                    },
-                                    {
-                                        "id": "2653",
-                                        "name": "Troy Trojans",
-                                        "abbreviation": "TROY",
-                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
-                                        "parent": "Sun Belt - West"
-                                    },
-                                    {
-                                        "id": "326",
-                                        "name": "Texas State Bobcats",
-                                        "abbreviation": "TXST",
-                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
-                                        "parent": "Sun Belt - West"
-                                    },
-                                    {
-                                        "id": "2572",
-                                        "name": "Southern Miss Golden Eagles",
-                                        "abbreviation": "USM",
-                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
-                                        "parent": "Sun Belt - West"
-                                    },
-                                    {
-                                        "id": "309",
-                                        "name": "Louisiana Ragin' Cajuns",
-                                        "abbreviation": "UL",
-                                        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
-                                        "parent": "Sun Belt - West"
-                                    }
-                                ],
-                                "games": [
-                                    {
-                                        "id": "401761653",
-                                        "week": "Week 12",
-                                        "home_abbreviation": "ULM",
-                                        "away_abbreviation": "USA",
-                                        "home_score": 14,
-                                        "away_score": 26,
-                                        "home_team_won": false
-                                    },
-                                    {
-                                        "id": "401761616",
-                                        "week": "Week 5",
-                                        "home_abbreviation": "ULM",
-                                        "away_abbreviation": "ARST",
-                                        "home_score": 28,
-                                        "away_score": 16,
-                                        "home_team_won": true
-                                    },
-                                    {
-                                        "id": "401761643",
-                                        "week": "Week 10",
-                                        "home_abbreviation": "TROY",
-                                        "away_abbreviation": "ARST",
-                                        "home_score": 10,
-                                        "away_score": 23,
-                                        "home_team_won": false
-                                    },
-                                    {
-                                        "id": "401761627",
-                                        "week": "Week 7",
-                                        "home_abbreviation": "TXST",
-                                        "away_abbreviation": "TROY",
-                                        "home_score": 41,
-                                        "away_score": 48,
-                                        "home_team_won": false
-                                    },
-                                    {
-                                        "id": "401761654",
-                                        "week": "Week 12",
-                                        "home_abbreviation": "USM",
-                                        "away_abbreviation": "TXST",
-                                        "home_score": 14,
-                                        "away_score": 41,
-                                        "home_team_won": false
-                                    },
-                                    {
-                                        "id": "401761668",
-                                        "week": "Week 8",
-                                        "home_abbreviation": "UL",
-                                        "away_abbreviation": "USM",
-                                        "home_score": 10,
-                                        "away_score": 22,
-                                        "home_team_won": false
-                                    },
-                                    {
-                                        "id": "401761642",
-                                        "week": "Week 10",
-                                        "home_abbreviation": "USA",
-                                        "away_abbreviation": "UL",
-                                        "home_score": 22,
-                                        "away_score": 31,
-                                        "home_team_won": false
-                                    }
-                                ]
-                            }
-                        }
-                    },
-                    "Atlantic Coast Conference": {
-                        "suck": {
-                            "group_name": "Atlantic Coast Conference",
-                            "teams": [
-                                {
-                                    "id": "24",
-                                    "name": "Stanford Cardinal",
-                                    "abbreviation": "STAN",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "25",
-                                    "name": "California Golden Bears",
-                                    "abbreviation": "CAL",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "97",
-                                    "name": "Louisville Cardinals",
-                                    "abbreviation": "LOU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "103",
-                                    "name": "Boston College Eagles",
-                                    "abbreviation": "BC",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "183",
-                                    "name": "Syracuse Orange",
-                                    "abbreviation": "SYR",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "228",
-                                    "name": "Clemson Tigers",
-                                    "abbreviation": "CLEM",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "52",
-                                    "name": "Florida State Seminoles",
-                                    "abbreviation": "FSU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "154",
-                                    "name": "Wake Forest Demon Deacons",
-                                    "abbreviation": "WAKE",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "2567",
-                                    "name": "SMU Mustangs",
-                                    "abbreviation": "SMU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "2390",
-                                    "name": "Miami Hurricanes",
-                                    "abbreviation": "MIA",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "221",
-                                    "name": "Pittsburgh Panthers",
-                                    "abbreviation": "PITT",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "59",
-                                    "name": "Georgia Tech Yellow Jackets",
-                                    "abbreviation": "GT",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "259",
-                                    "name": "Virginia Tech Hokies",
-                                    "abbreviation": "VT",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "152",
-                                    "name": "NC State Wolfpack",
-                                    "abbreviation": "NCSU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "258",
-                                    "name": "Virginia Cavaliers",
-                                    "abbreviation": "UVA",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "150",
-                                    "name": "Duke Blue Devils",
-                                    "abbreviation": "DUKE",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-                                    "parent": "Atlantic Coast Conference"
-                                },
-                                {
-                                    "id": "153",
-                                    "name": "North Carolina Tar Heels",
-                                    "abbreviation": "UNC",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-                                    "parent": "Atlantic Coast Conference"
-                                }
-                            ],
-                            "games": [
-                                {
-                                    "id": "401754599",
-                                    "week": "Week 13",
-                                    "home_abbreviation": "STAN",
-                                    "away_abbreviation": "CAL",
+                                    "home_abbreviation": "SUU",
+                                    "away_abbreviation": "ACU",
                                     "home_score": 31,
-                                    "away_score": 10,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401754585",
-                                    "week": "Week 11",
-                                    "home_abbreviation": "LOU",
-                                    "away_abbreviation": "CAL",
-                                    "home_score": 26,
-                                    "away_score": 29,
-                                    "home_team_won": false
-                                },
-                                {
-                                    "id": "401754570",
-                                    "week": "Week 9",
-                                    "home_abbreviation": "LOU",
-                                    "away_abbreviation": "BC",
-                                    "home_score": 38,
                                     "away_score": 24,
                                     "home_team_won": true
                                 },
                                 {
-                                    "id": "401754608",
-                                    "week": "Week 14",
-                                    "home_abbreviation": "SYR",
-                                    "away_abbreviation": "BC",
-                                    "home_score": 12,
-                                    "away_score": 34,
-                                    "home_team_won": false
-                                },
-                                {
-                                    "id": "401754537",
-                                    "week": "Week 4",
-                                    "home_abbreviation": "CLEM",
-                                    "away_abbreviation": "SYR",
-                                    "home_score": 21,
-                                    "away_score": 34,
-                                    "home_team_won": false
-                                },
-                                {
-                                    "id": "401754586",
-                                    "week": "Week 11",
-                                    "home_abbreviation": "CLEM",
-                                    "away_abbreviation": "FSU",
-                                    "home_score": 24,
-                                    "away_score": 10,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401754578",
+                                    "id": "401767244",
                                     "week": "Week 10",
-                                    "home_abbreviation": "FSU",
-                                    "away_abbreviation": "WAKE",
-                                    "home_score": 42,
-                                    "away_score": 7,
+                                    "home_abbreviation": "ACU",
+                                    "away_abbreviation": "TAR",
+                                    "home_score": 31,
+                                    "away_score": 28,
                                     "home_team_won": true
                                 },
                                 {
-                                    "id": "401752942",
-                                    "week": "Week 9",
-                                    "home_abbreviation": "WAKE",
-                                    "away_abbreviation": "SMU",
-                                    "home_score": 13,
-                                    "away_score": 12,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401754581",
-                                    "week": "Week 10",
-                                    "home_abbreviation": "SMU",
-                                    "away_abbreviation": "MIA",
-                                    "home_score": 26,
-                                    "away_score": 20,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401754611",
-                                    "week": "Week 14",
-                                    "home_abbreviation": "PITT",
-                                    "away_abbreviation": "MIA",
-                                    "home_score": 7,
-                                    "away_score": 38,
-                                    "home_team_won": false
-                                },
-                                {
-                                    "id": "401754601",
-                                    "week": "Week 13",
-                                    "home_abbreviation": "GT",
-                                    "away_abbreviation": "PITT",
-                                    "home_score": 28,
-                                    "away_score": 42,
-                                    "home_team_won": false
-                                },
-                                {
-                                    "id": "401754560",
-                                    "week": "Week 7",
-                                    "home_abbreviation": "GT",
-                                    "away_abbreviation": "VT",
-                                    "home_score": 35,
-                                    "away_score": 20,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401754548",
-                                    "week": "Week 5",
-                                    "home_abbreviation": "NCSU",
-                                    "away_abbreviation": "VT",
-                                    "home_score": 21,
-                                    "away_score": 23,
-                                    "home_team_won": false
-                                },
-                                {
-                                    "id": "401754524",
-                                    "week": "Week 2",
-                                    "home_abbreviation": "NCSU",
-                                    "away_abbreviation": "UVA",
-                                    "home_score": 35,
-                                    "away_score": 31,
-                                    "home_team_won": true
-                                },
-                                {
-                                    "id": "401754593",
-                                    "week": "Week 12",
-                                    "home_abbreviation": "DUKE",
-                                    "away_abbreviation": "UVA",
-                                    "home_score": 17,
-                                    "away_score": 34,
-                                    "home_team_won": false
-                                },
-                                {
-                                    "id": "401754600",
-                                    "week": "Week 13",
-                                    "home_abbreviation": "UNC",
-                                    "away_abbreviation": "DUKE",
-                                    "home_score": 25,
-                                    "away_score": 32,
-                                    "home_team_won": false
-                                },
-                                {
-                                    "id": "401754588",
-                                    "week": "Week 11",
-                                    "home_abbreviation": "UNC",
-                                    "away_abbreviation": "STAN",
-                                    "home_score": 20,
-                                    "away_score": 15,
-                                    "home_team_won": true
-                                }
-                            ]
-                        }
-                    },
-                    "Pac-12 Conference": {
-                        "suck": {
-                            "group_name": "Pac-12 Conference",
-                            "teams": [
-                                {
-                                    "id": "204",
-                                    "name": "Oregon State Beavers",
-                                    "abbreviation": "ORST",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
-                                    "parent": "Pac-12 Conference"
-                                },
-                                {
-                                    "id": "265",
-                                    "name": "Washington State Cougars",
-                                    "abbreviation": "WSU",
-                                    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
-                                    "parent": "Pac-12 Conference"
-                                }
-                            ],
-                            "games": [
-                                {
-                                    "id": "401752943",
-                                    "week": "Week 10",
-                                    "home_abbreviation": "ORST",
-                                    "away_abbreviation": "WSU",
+                                    "id": "401767305",
+                                    "week": "Week 3",
+                                    "home_abbreviation": "CARK",
+                                    "away_abbreviation": "TAR",
                                     "home_score": 10,
-                                    "away_score": 7,
+                                    "away_score": 56,
+                                    "home_team_won": false
+                                },
+                                {
+                                    "id": "401769869",
+                                    "week": "Week 6",
+                                    "home_abbreviation": "CARK",
+                                    "away_abbreviation": "UTU",
+                                    "home_score": 23,
+                                    "away_score": 17,
                                     "home_team_won": true
                                 },
                                 {
-                                    "id": "401752946",
-                                    "week": "Week 14",
-                                    "home_abbreviation": "WSU",
-                                    "away_abbreviation": "ORST",
-                                    "home_score": 32,
-                                    "away_score": 8,
+                                    "id": "401767288",
+                                    "week": "Week 10",
+                                    "home_abbreviation": "UTU",
+                                    "away_abbreviation": "UNA",
+                                    "home_score": 34,
+                                    "away_score": 33,
                                     "home_team_won": true
+                                },
+                                {
+                                    "id": "401767280",
+                                    "week": "Week 8",
+                                    "home_abbreviation": "UNA",
+                                    "away_abbreviation": "EKU",
+                                    "home_score": 35,
+                                    "away_score": 14,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401767251",
+                                    "week": "Week 7",
+                                    "home_abbreviation": "EKU",
+                                    "away_abbreviation": "APSU",
+                                    "home_score": 34,
+                                    "away_score": 20,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401767250",
+                                    "week": "Week 6",
+                                    "home_abbreviation": "APSU",
+                                    "away_abbreviation": "WES",
+                                    "home_score": 44,
+                                    "away_score": 30,
+                                    "home_team_won": true
+                                },
+                                {
+                                    "id": "401767293",
+                                    "week": "Week 5",
+                                    "home_abbreviation": "SUU",
+                                    "away_abbreviation": "WES",
+                                    "home_score": 24,
+                                    "away_score": 27,
+                                    "home_team_won": false
                                 }
                             ]
                         }
